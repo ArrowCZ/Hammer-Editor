@@ -1,0 +1,2757 @@
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1751180 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 47 texinfos to 32
+Reduced 6 texdatas to 6 (121 bytes to 121)
+Writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+ 246 portalclusters
+ 781 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 129 visible clusters (0.27%)
+Total clusters visible: 47679
+Average clusters visible: 193
+Building PAS...
+Average clusters audible: 246
+visdatasize:17260  compressed from 15744
+writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+674 faces
+1365210 square feet [196590304.00 square inches]
+30 Displacements
+252984 Square Feet [36429824.00 Square Inches]
+674 patches before subdivision
+zero area child patch
+zero area child patch
+12182 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 352720, max 201
+transfer lists:   2.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(31871, 25265, 17401)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(974, 578, 355)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(51, 23, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0083 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 76/8192          912/98304    ( 0.9%) 
+brushsides             489/65536        3912/524288   ( 0.7%) 
+planes                 410/65536        8200/1310720  ( 0.6%) 
+vertexes               904/65536       10848/786432   ( 1.4%) 
+nodes                  545/65536       17440/2097152  ( 0.8%) 
+texinfos                32/12288        2304/884736   ( 0.3%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos               30/0            5280/0        ( 0.0%) 
+disp_verts            8670/0          173400/0        ( 0.0%) 
+disp_tris            15360/0           30720/0        ( 0.0%) 
+disp_lmsamples      413822/0          413822/0        ( 0.0%) 
+faces                  674/65536       37744/3670016  ( 1.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              288/65536       16128/3670016  ( 0.4%) 
+leaves                 549/65536       17568/2097152  ( 0.8%) 
+leaffaces              723/65536        1446/131072   ( 1.1%) 
+leafbrushes            294/65536         588/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             4147/512000      16588/2048000  ( 0.8%) 
+edges                 2239/256000       8956/1024000  ( 0.9%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             27/32768         270/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           363/65536         726/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      683196/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       17260/16777216 ( 0.1%) 
+entdata               [variable]        6508/393216   ( 1.7%) 
+LDR ambient table      549/65536        2196/262144   ( 0.8%) 
+HDR ambient table      549/65536        2196/262144   ( 0.8%) 
+LDR leaf ambient      2444/65536       68432/1835008  ( 3.7%) 
+HDR leaf ambient       549/65536       15372/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/214164   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]     1751180/4194304  (41.8%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1634
+Writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+10 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (103723 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 82 texinfos to 68
+Reduced 10 texdatas to 8 (214 bytes to 151)
+Writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+ 405 portalclusters
+1435 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 303 visible clusters (0.26%)
+Total clusters visible: 114461
+Average clusters visible: 282
+Building PAS...
+Average clusters audible: 342
+visdatasize:42606  compressed from 45360
+writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+6 minutes, 4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+1241 faces
+1 degenerate faces
+2922405 square feet [420826336.00 square inches]
+1 Displacements
+426564 Square Feet [61425244.00 Square Inches]
+1240 patches before subdivision
+zero area child patch
+12172 patches after subdivision
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 712568, max 329
+transfer lists:   5.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12241, 10268, 8995)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(483, 358, 309)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(25, 16, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0062 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                118/8192         1416/98304    ( 1.4%) 
+brushsides             910/65536        7280/524288   ( 1.4%) 
+planes                1128/65536       22560/1310720  ( 1.7%) 
+vertexes              1667/65536       20004/786432   ( 2.5%) 
+nodes                 1179/65536       37728/2097152  ( 1.8%) 
+texinfos                68/12288        4896/884736   ( 0.6%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples       51555/0           51555/0        ( 0.0%) 
+faces                 1241/65536       69496/3670016  ( 1.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              453/65536       25368/3670016  ( 0.7%) 
+leaves                1188/65536       38016/2097152  ( 1.8%) 
+leaffaces             1469/65536        2938/131072   ( 2.2%) 
+leafbrushes            637/65536        1274/131072   ( 1.0%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             7357/512000      29428/2048000  ( 1.4%) 
+edges                 3901/256000      15604/1024000  ( 1.5%) 
+LDR worldlights         15/8192         1320/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             51/32768         510/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           708/65536        1416/131072   ( 1.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      837364/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       42606/16777216 ( 0.3%) 
+entdata               [variable]       26460/393216   ( 6.7%) 
+LDR ambient table     1188/65536        4752/262144   ( 1.8%) 
+HDR ambient table     1188/65536        4752/262144   ( 1.8%) 
+LDR leaf ambient      3613/65536      101164/1835008  ( 5.5%) 
+HDR leaf ambient      1188/65536       33264/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/903840   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211598/0        ( 0.0%) 
+physics               [variable]      103723/4194304  ( 2.5%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3046
+Writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+17 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (103723 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 82 texinfos to 68
+Reduced 10 texdatas to 8 (214 bytes to 151)
+Writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+ 405 portalclusters
+1435 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 303 visible clusters (0.26%)
+Total clusters visible: 114461
+Average clusters visible: 282
+Building PAS...
+Average clusters audible: 342
+visdatasize:42606  compressed from 45360
+writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+6 minutes, 18 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+1241 faces
+1 degenerate faces
+2922405 square feet [420826336.00 square inches]
+1 Displacements
+426564 Square Feet [61425244.00 Square Inches]
+1240 patches before subdivision
+zero area child patch
+12172 patches after subdivision
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 712568, max 329
+transfer lists:   5.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12241, 10268, 8995)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(483, 358, 309)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(25, 16, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0056 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                118/8192         1416/98304    ( 1.4%) 
+brushsides             910/65536        7280/524288   ( 1.4%) 
+planes                1128/65536       22560/1310720  ( 1.7%) 
+vertexes              1667/65536       20004/786432   ( 2.5%) 
+nodes                 1179/65536       37728/2097152  ( 1.8%) 
+texinfos                68/12288        4896/884736   ( 0.6%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples       51555/0           51555/0        ( 0.0%) 
+faces                 1241/65536       69496/3670016  ( 1.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              453/65536       25368/3670016  ( 0.7%) 
+leaves                1188/65536       38016/2097152  ( 1.8%) 
+leaffaces             1469/65536        2938/131072   ( 2.2%) 
+leafbrushes            637/65536        1274/131072   ( 1.0%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             7357/512000      29428/2048000  ( 1.4%) 
+edges                 3901/256000      15604/1024000  ( 1.5%) 
+LDR worldlights         15/8192         1320/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             51/32768         510/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           708/65536        1416/131072   ( 1.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      837364/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       42606/16777216 ( 0.3%) 
+entdata               [variable]       26462/393216   ( 6.7%) 
+LDR ambient table     1188/65536        4752/262144   ( 1.8%) 
+HDR ambient table     1188/65536        4752/262144   ( 1.8%) 
+LDR leaf ambient      3613/65536      101164/1835008  ( 5.5%) 
+HDR leaf ambient      1188/65536       33264/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/903840   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211598/0        ( 0.0%) 
+physics               [variable]      103723/4194304  ( 2.5%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3046
+Writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+16 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (103723 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 82 texinfos to 68
+Reduced 10 texdatas to 8 (214 bytes to 151)
+Writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+ 405 portalclusters
+1432 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 308 visible clusters (0.27%)
+Total clusters visible: 114500
+Average clusters visible: 282
+Building PAS...
+Average clusters audible: 342
+visdatasize:42564  compressed from 45360
+writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+14 minutes, 16 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+1242 faces
+1 degenerate faces
+2922405 square feet [420826336.00 square inches]
+1 Displacements
+426564 Square Feet [61425244.00 Square Inches]
+1241 patches before subdivision
+zero area child patch
+12171 patches after subdivision
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 712504, max 329
+transfer lists:   5.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12187, 10217, 8947)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(482, 357, 308)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(25, 16, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0055 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                118/8192         1416/98304    ( 1.4%) 
+brushsides             910/65536        7280/524288   ( 1.4%) 
+planes                1128/65536       22560/1310720  ( 1.7%) 
+vertexes              1669/65536       20028/786432   ( 2.5%) 
+nodes                 1179/65536       37728/2097152  ( 1.8%) 
+texinfos                68/12288        4896/884736   ( 0.6%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples       51555/0           51555/0        ( 0.0%) 
+faces                 1242/65536       69552/3670016  ( 1.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              453/65536       25368/3670016  ( 0.7%) 
+leaves                1188/65536       38016/2097152  ( 1.8%) 
+leaffaces             1467/65536        2934/131072   ( 2.2%) 
+leafbrushes            637/65536        1274/131072   ( 1.0%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             7363/512000      29452/2048000  ( 1.4%) 
+edges                 3904/256000      15616/1024000  ( 1.5%) 
+LDR worldlights         15/8192         1320/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             51/32768         510/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           708/65536        1416/131072   ( 1.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      837384/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       42564/16777216 ( 0.3%) 
+entdata               [variable]       26564/393216   ( 6.8%) 
+LDR ambient table     1188/65536        4752/262144   ( 1.8%) 
+HDR ambient table     1188/65536        4752/262144   ( 1.8%) 
+LDR leaf ambient      3617/65536      101276/1835008  ( 5.5%) 
+HDR leaf ambient      1188/65536       33264/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/903840   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211598/0        ( 0.0%) 
+physics               [variable]      103723/4194304  ( 2.5%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3050
+Writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+17 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (438108 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 57 texinfos to 46
+Reduced 8 texdatas to 7 (157 bytes to 139)
+Writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+ 392 portalclusters
+1260 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 303 visible clusters (0.23%)
+Total clusters visible: 130836
+Average clusters visible: 333
+Building PAS...
+Average clusters audible: 390
+visdatasize:41396  compressed from 43904
+writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+7 minutes, 15 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+1166 faces
+1 degenerate faces
+3684191 square feet [530523584.00 square inches]
+7 Displacements
+780717 Square Feet [112423320.00 Square Inches]
+1165 patches before subdivision
+zero area child patch
+10819 patches after subdivision
+5 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 208301, max 304
+transfer lists:   1.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1611, 1171, 1088)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(105, 55, 47)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(7, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0080 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 90/8192         1080/98304    ( 1.1%) 
+brushsides             717/65536        5736/524288   ( 1.1%) 
+planes                 864/65536       17280/1310720  ( 1.3%) 
+vertexes              1507/65536       18084/786432   ( 2.3%) 
+nodes                 1203/65536       38496/2097152  ( 1.8%) 
+texinfos                46/12288        3312/884736   ( 0.4%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                7/0            1232/0        ( 0.0%) 
+disp_verts            2023/0           40460/0        ( 0.0%) 
+disp_tris             3584/0            7168/0        ( 0.0%) 
+disp_lmsamples      203518/0          203518/0        ( 0.0%) 
+faces                 1166/65536       65296/3670016  ( 1.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              331/65536       18536/3670016  ( 0.5%) 
+leaves                1207/65536       38624/2097152  ( 1.8%) 
+leaffaces             1316/65536        2632/131072   ( 2.0%) 
+leafbrushes            709/65536        1418/131072   ( 1.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             6475/512000      25900/2048000  ( 1.3%) 
+edges                 3429/256000      13716/1024000  ( 1.3%) 
+LDR worldlights          5/8192          440/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             45/32768         450/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           630/65536        1260/131072   ( 1.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      526300/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       41396/16777216 ( 0.2%) 
+entdata               [variable]       21446/393216   ( 5.5%) 
+LDR ambient table     1207/65536        4828/262144   ( 1.8%) 
+HDR ambient table     1207/65536        4828/262144   ( 1.8%) 
+LDR leaf ambient      4638/65536      129864/1835008  ( 7.1%) 
+HDR leaf ambient      1207/65536       33796/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/901396   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/1260     ( 0.1%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]      438108/4194304  (10.4%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2802
+Writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+18 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (438108 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 57 texinfos to 46
+Reduced 8 texdatas to 7 (157 bytes to 139)
+Writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+ 392 portalclusters
+1260 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (438108 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 57 texinfos to 46
+Reduced 8 texdatas to 7 (157 bytes to 139)
+Writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.bsp
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+ 392 portalclusters
+1260 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...10Optimized: 303 visible clusters (0.23%)
+Total clusters visible: 130836
+Average clusters visible: 333
+Building PAS...
+Average clusters audible: 390
+visdatasize:41396  compressed from 43904
+writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+8 minutes, 8 seconds elapsed
+8...9...10Optimized: 303 visible clusters (0.23%)
+Total clusters visible: 130836
+Average clusters visible: 333
+Building PAS...
+Average clusters audible: 390
+visdatasize:41396  compressed from 43904
+writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+7 minutes, 48 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+1166 faces
+1 degenerate faces
+3684191 square feet [530523584.00 square inches]
+7 Displacements
+780717 Square Feet [112423320.00 Square Inches]
+1165 patches before subdivision
+zero area child patch
+10821 patches after subdivision
+5 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 208209, max 304
+transfer lists:   1.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1612, 1171, 1089)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(105, 55, 47)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(7, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0080 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 90/8192         1080/98304    ( 1.1%) 
+brushsides             717/65536        5736/524288   ( 1.1%) 
+planes                 864/65536       17280/1310720  ( 1.3%) 
+vertexes              1507/65536       18084/786432   ( 2.3%) 
+nodes                 1203/65536       38496/2097152  ( 1.8%) 
+texinfos                46/12288        3312/884736   ( 0.4%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                7/0            1232/0        ( 0.0%) 
+disp_verts            2023/0           40460/0        ( 0.0%) 
+disp_tris             3584/0            7168/0        ( 0.0%) 
+disp_lmsamples      203518/0          203518/0        ( 0.0%) 
+faces                 1166/65536       65296/3670016  ( 1.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              331/65536       18536/3670016  ( 0.5%) 
+leaves                1207/65536       38624/2097152  ( 1.8%) 
+leaffaces             1316/65536        2632/131072   ( 2.0%) 
+leafbrushes            709/65536        1418/131072   ( 1.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             6475/512000      25900/2048000  ( 1.3%) 
+edges                 3429/256000      13716/1024000  ( 1.3%) 
+LDR worldlights          5/8192          440/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             45/32768         450/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           630/65536        1260/131072   ( 1.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      526300/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       41396/16777216 ( 0.2%) 
+entdata               [variable]       21446/393216   ( 5.5%) 
+LDR ambient table     1207/65536        4828/262144   ( 1.8%) 
+HDR ambient table     1207/65536        4828/262144   ( 1.8%) 
+LDR leaf ambient      4627/65536      129556/1835008  ( 7.1%) 
+HDR leaf ambient      1207/65536       33796/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/901396   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/1260     ( 0.1%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]      438108/4194304  (10.4%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2802
+Writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+18 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (438108 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 57 texinfos to 46
+Reduced 8 texdatas to 7 (157 bytes to 139)
+Writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+ 392 portalclusters
+1260 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 303 visible clusters (0.23%)
+Total clusters visible: 130836
+Average clusters visible: 333
+Building PAS...
+Average clusters audible: 390
+visdatasize:41396  compressed from 43904
+writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+7 minutes, 26 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+1166 faces
+1 degenerate faces
+3741565 square feet [538785408.00 square inches]
+7 Displacements
+780717 Square Feet [112423320.00 Square Inches]
+1165 patches before subdivision
+zero area child patch
+10793 patches after subdivision
+5 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 209217, max 304
+transfer lists:   1.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6051, 4432, 3468)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(203, 111, 83)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(11, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0080 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 90/8192         1080/98304    ( 1.1%) 
+brushsides             717/65536        5736/524288   ( 1.1%) 
+planes                 864/65536       17280/1310720  ( 1.3%) 
+vertexes              1507/65536       18084/786432   ( 2.3%) 
+nodes                 1203/65536       38496/2097152  ( 1.8%) 
+texinfos                46/12288        3312/884736   ( 0.4%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                7/0            1232/0        ( 0.0%) 
+disp_verts            2023/0           40460/0        ( 0.0%) 
+disp_tris             3584/0            7168/0        ( 0.0%) 
+disp_lmsamples      203518/0          203518/0        ( 0.0%) 
+faces                 1166/65536       65296/3670016  ( 1.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              331/65536       18536/3670016  ( 0.5%) 
+leaves                1207/65536       38624/2097152  ( 1.8%) 
+leaffaces             1316/65536        2632/131072   ( 2.0%) 
+leafbrushes            709/65536        1418/131072   ( 1.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             6475/512000      25900/2048000  ( 1.3%) 
+edges                 3429/256000      13716/1024000  ( 1.3%) 
+LDR worldlights          5/8192          440/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             45/32768         450/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           630/65536        1260/131072   ( 1.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      526300/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       41396/16777216 ( 0.2%) 
+entdata               [variable]       23272/393216   ( 5.9%) 
+LDR ambient table     1207/65536        4828/262144   ( 1.8%) 
+HDR ambient table     1207/65536        4828/262144   ( 1.8%) 
+LDR leaf ambient      4482/65536      125496/1835008  ( 6.8%) 
+HDR leaf ambient      1207/65536       33796/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/901396   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/1260     ( 0.1%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]      438108/4194304  (10.4%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2802
+Writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+17 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (438236 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 57 texinfos to 46
+Reduced 8 texdatas to 7 (157 bytes to 139)
+Writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+ 392 portalclusters
+1260 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 303 visible clusters (0.23%)
+Total clusters visible: 130836
+Average clusters visible: 333
+Building PAS...
+Average clusters audible: 390
+visdatasize:41396  compressed from 43904
+writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+7 minutes, 34 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+1166 faces
+1 degenerate faces
+3741565 square feet [538785408.00 square inches]
+7 Displacements
+507063 Square Feet [73017168.00 Square Inches]
+1165 patches before subdivision
+zero area child patch
+10165 patches after subdivision
+5 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 203155, max 304
+transfer lists:   1.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4268, 3034, 2316)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(183, 96, 70)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(10, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0074 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 90/8192         1080/98304    ( 1.1%) 
+brushsides             717/65536        5736/524288   ( 1.1%) 
+planes                 864/65536       17280/1310720  ( 1.3%) 
+vertexes              1507/65536       18084/786432   ( 2.3%) 
+nodes                 1203/65536       38496/2097152  ( 1.8%) 
+texinfos                46/12288        3312/884736   ( 0.4%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                7/0            1232/0        ( 0.0%) 
+disp_verts            2023/0           40460/0        ( 0.0%) 
+disp_tris             3584/0            7168/0        ( 0.0%) 
+disp_lmsamples      204196/0          204196/0        ( 0.0%) 
+faces                 1166/65536       65296/3670016  ( 1.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              331/65536       18536/3670016  ( 0.5%) 
+leaves                1207/65536       38624/2097152  ( 1.8%) 
+leaffaces             1316/65536        2632/131072   ( 2.0%) 
+leafbrushes            709/65536        1418/131072   ( 1.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             6475/512000      25900/2048000  ( 1.3%) 
+edges                 3429/256000      13716/1024000  ( 1.3%) 
+LDR worldlights          5/8192          440/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             45/32768         450/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           630/65536        1260/131072   ( 1.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      527076/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       41396/16777216 ( 0.2%) 
+entdata               [variable]       58509/393216   (14.9%) 
+LDR ambient table     1207/65536        4828/262144   ( 1.8%) 
+HDR ambient table     1207/65536        4828/262144   ( 1.8%) 
+LDR leaf ambient      3725/65536      104300/1835008  ( 5.7%) 
+HDR leaf ambient      1207/65536       33796/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/901396   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/1262     ( 0.1%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]      438236/4194304  (10.4%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2802
+Writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+17 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Error: displacement found on a(n) func_detail entity - not supported (entity 137, brush 0)
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+LoadPortals: couldn't read c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+1166 faces
+1 degenerate faces
+3741565 square feet [538785408.00 square inches]
+7 Displacements
+507063 Square Feet [73017168.00 Square Inches]
+1165 patches before subdivision
+zero area child patch
+10165 patches after subdivision
+5 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 203155, max 304
+transfer lists:   1.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4268, 3034, 2316)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(183, 96, 70)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(10, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0066 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 90/8192         1080/98304    ( 1.1%) 
+brushsides             717/65536        5736/524288   ( 1.1%) 
+planes                 864/65536       17280/1310720  ( 1.3%) 
+vertexes              1507/65536       18084/786432   ( 2.3%) 
+nodes                 1203/65536       38496/2097152  ( 1.8%) 
+texinfos                46/12288        3312/884736   ( 0.4%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                7/0            1232/0        ( 0.0%) 
+disp_verts            2023/0           40460/0        ( 0.0%) 
+disp_tris             3584/0            7168/0        ( 0.0%) 
+disp_lmsamples      204196/0          204196/0        ( 0.0%) 
+faces                 1166/65536       65296/3670016  ( 1.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              331/65536       18536/3670016  ( 0.5%) 
+leaves                1207/65536       38624/2097152  ( 1.8%) 
+leaffaces             1316/65536        2632/131072   ( 2.0%) 
+leafbrushes            709/65536        1418/131072   ( 1.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             6475/512000      25900/2048000  ( 1.3%) 
+edges                 3429/256000      13716/1024000  ( 1.3%) 
+LDR worldlights          5/8192          440/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             45/32768         450/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           630/65536        1260/131072   ( 1.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      527076/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       41396/16777216 ( 0.2%) 
+entdata               [variable]       58509/393216   (14.9%) 
+LDR ambient table     1207/65536        4828/262144   ( 1.8%) 
+HDR ambient table     1207/65536        4828/262144   ( 1.8%) 
+LDR leaf ambient      3725/65536      104300/1835008  ( 5.7%) 
+HDR leaf ambient      1207/65536       33796/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/901396   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/1262     ( 0.1%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]      438236/4194304  (10.4%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2802
+Writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+17 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Error: displacement found on a(n) func_detail entity - not supported (entity 137, brush 0)
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+Error opening c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+Error opening c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1473244 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 73 texinfos to 54
+Reduced 7 texdatas to 6 (130 bytes to 112)
+Writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+ 474 portalclusters
+1437 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (1473244 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 73 texinfos to 54
+Reduced 7 texdatas to 6 (130 bytes to 112)
+Writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.bsp
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+ 342 portalclusters
+1165 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9....10Optimized: 293 visible clusters (0.31%)
+Total clusters visible: 95238
+Average clusters visible: 278
+Building PAS...
+Average clusters audible: 340
+visdatasize:32118  compressed from 32832
+writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+6 minutes, 14 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+1074 faces
+1 degenerate faces
+2938538 square feet [423149568.00 square inches]
+25 Displacements
+431570 Square Feet [62146176.00 Square Inches]
+1073 patches before subdivision
+zero area child patch
+6923 patches after subdivision
+5 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 193456, max 306
+transfer lists:   1.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4289, 3058, 2352)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(184, 96, 71)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(10, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0027 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 90/8192         1080/98304    ( 1.1%) 
+brushsides             717/65536        5736/524288   ( 1.1%) 
+planes                 868/65536       17360/1310720  ( 1.3%) 
+vertexes              1413/65536       16956/786432   ( 2.2%) 
+nodes                 1049/65536       33568/2097152  ( 1.6%) 
+texinfos                54/12288        3888/884736   ( 0.4%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos               25/0            4400/0        ( 0.0%) 
+disp_verts            7225/0          144500/0        ( 0.0%) 
+disp_tris            12800/0           25600/0        ( 0.0%) 
+disp_lmsamples       53876/0           53876/0        ( 0.0%) 
+faces                 1074/65536       60144/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              349/65536       19544/3670016  ( 0.5%) 
+leaves                1053/65536       33696/2097152  ( 1.6%) 
+leaffaces             1206/65536        2412/131072   ( 1.8%) 
+leafbrushes            599/65536        1198/131072   ( 0.9%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             6179/512000      24716/2048000  ( 1.2%) 
+edges                 3281/256000      13124/1024000  ( 1.3%) 
+LDR worldlights          5/8192          440/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             45/32768         450/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           630/65536        1260/131072   ( 1.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      393436/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       32118/16777216 ( 0.2%) 
+entdata               [variable]       73480/393216   (18.7%) 
+LDR ambient table     1053/65536        4212/262144   ( 1.6%) 
+HDR ambient table     1053/65536        4212/262144   ( 1.6%) 
+LDR leaf ambient      2926/65536       81928/1835008  ( 4.5%) 
+HDR leaf ambient      1053/65536       29484/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/786320   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/1264     ( 0.1%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]     1473244/4194304  (35.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2618
+Writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+38 seconds elapsed
+..10Optimized: 318 visible clusters (0.16%)
+Total clusters visible: 199431
+Average clusters visible: 420
+Building PAS...
+Average clusters audible: 472
+visdatasize:60653  compressed from 60672
+writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+21 minutes, 0 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1473244 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 73 texinfos to 54
+Reduced 8 texdatas to 7 (147 bytes to 129)
+Writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+ 342 portalclusters
+1165 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 293 visible clusters (0.31%)
+Total clusters visible: 95238
+Average clusters visible: 278
+Building PAS...
+Average clusters audible: 340
+visdatasize:32118  compressed from 32832
+writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+2 minutes, 52 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+1074 faces
+1 degenerate faces
+2938538 square feet [423149568.00 square inches]
+25 Displacements
+431570 Square Feet [62146176.00 Square Inches]
+1073 patches before subdivision
+zero area child patch
+6923 patches after subdivision
+5 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 193458, max 306
+transfer lists:   1.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4289, 3058, 2352)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(184, 96, 71)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(10, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0038 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 90/8192         1080/98304    ( 1.1%) 
+brushsides             717/65536        5736/524288   ( 1.1%) 
+planes                 868/65536       17360/1310720  ( 1.3%) 
+vertexes              1413/65536       16956/786432   ( 2.2%) 
+nodes                 1049/65536       33568/2097152  ( 1.6%) 
+texinfos                54/12288        3888/884736   ( 0.4%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos               25/0            4400/0        ( 0.0%) 
+disp_verts            7225/0          144500/0        ( 0.0%) 
+disp_tris            12800/0           25600/0        ( 0.0%) 
+disp_lmsamples       53876/0           53876/0        ( 0.0%) 
+faces                 1074/65536       60144/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              349/65536       19544/3670016  ( 0.5%) 
+leaves                1053/65536       33696/2097152  ( 1.6%) 
+leaffaces             1206/65536        2412/131072   ( 1.8%) 
+leafbrushes            599/65536        1198/131072   ( 0.9%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             6179/512000      24716/2048000  ( 1.2%) 
+edges                 3281/256000      13124/1024000  ( 1.3%) 
+LDR worldlights          5/8192          440/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             45/32768         450/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           630/65536        1260/131072   ( 1.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      393436/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       32118/16777216 ( 0.2%) 
+entdata               [variable]       75302/393216   (19.2%) 
+LDR ambient table     1053/65536        4212/262144   ( 1.6%) 
+HDR ambient table     1053/65536        4212/262144   ( 1.6%) 
+LDR leaf ambient      2874/65536       80472/1835008  ( 4.4%) 
+HDR leaf ambient      1053/65536       29484/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/2419484  ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/1264     ( 0.1%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]     1473244/4194304  (35.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2618
+Writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+22 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity func_breakable (2277.50 530.00 -440.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 4608.0 -109.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (512.0 5120.0 -109.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 5120.0 -109.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 3584.0 -109.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 2560.0 -109.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1536.0 5120.0 -109.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2560.0 5120.0 -109.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-3584.0 5120.0 -109.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1473244 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 73 texinfos to 54
+Reduced 8 texdatas to 7 (147 bytes to 129)
+Writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.bsp
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+LoadPortals: couldn't read c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+No vis information, direct lighting only.
+1125 faces
+1 degenerate faces
+2947531 square feet [424444544.00 square inches]
+25 Displacements
+431570 Square Feet [62146176.00 Square Inches]
+5 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0033 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 90/8192         1080/98304    ( 1.1%) 
+brushsides             717/65536        5736/524288   ( 1.1%) 
+planes                 850/65536       17000/1310720  ( 1.3%) 
+vertexes              1449/65536       17388/786432   ( 2.2%) 
+nodes                 1068/65536       34176/2097152  ( 1.6%) 
+texinfos                54/12288        3888/884736   ( 0.4%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos               25/0            4400/0        ( 0.0%) 
+disp_verts            7225/0          144500/0        ( 0.0%) 
+disp_tris            12800/0           25600/0        ( 0.0%) 
+disp_lmsamples       53876/0           53876/0        ( 0.0%) 
+faces                 1125/65536       63000/3670016  ( 1.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              393/65536       22008/3670016  ( 0.6%) 
+leaves                1072/65536       34304/2097152  ( 1.6%) 
+leaffaces             1216/65536        2432/131072   ( 1.9%) 
+leafbrushes            386/65536         772/131072   ( 0.6%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             6606/512000      26424/2048000  ( 1.3%) 
+edges                 3491/256000      13964/1024000  ( 1.4%) 
+LDR worldlights          5/8192          440/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             41/32768         410/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           627/65536        1254/131072   ( 1.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      398556/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       75302/393216   (19.2%) 
+LDR ambient table     1072/65536        4288/262144   ( 1.6%) 
+HDR ambient table     1072/65536        4288/262144   ( 1.6%) 
+LDR leaf ambient      5437/65536      152236/1835008  ( 8.3%) 
+HDR leaf ambient      1072/65536       30016/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/1496328  ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/1262     ( 0.1%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]     1473244/4194304  (35.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2764
+Writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+16 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity func_breakable (2277.50 530.00 -440.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 4608.0 -109.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (512.0 5120.0 -109.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 5120.0 -109.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 3584.0 -109.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 2560.0 -109.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1536.0 5120.0 -109.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2560.0 5120.0 -109.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-3584.0 5120.0 -109.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1473244 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 73 texinfos to 54
+Reduced 8 texdatas to 7 (147 bytes to 129)
+Writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.bsp
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+LoadPortals: couldn't read c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+No vis information, direct lighting only.
+1125 faces
+1 degenerate faces
+2947531 square feet [424444544.00 square inches]
+25 Displacements
+431570 Square Feet [62146176.00 Square Inches]
+5 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0033 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 90/8192         1080/98304    ( 1.1%) 
+brushsides             717/65536        5736/524288   ( 1.1%) 
+planes                 850/65536       17000/1310720  ( 1.3%) 
+vertexes              1449/65536       17388/786432   ( 2.2%) 
+nodes                 1068/65536       34176/2097152  ( 1.6%) 
+texinfos                54/12288        3888/884736   ( 0.4%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos               25/0            4400/0        ( 0.0%) 
+disp_verts            7225/0          144500/0        ( 0.0%) 
+disp_tris            12800/0           25600/0        ( 0.0%) 
+disp_lmsamples       53876/0           53876/0        ( 0.0%) 
+faces                 1125/65536       63000/3670016  ( 1.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              393/65536       22008/3670016  ( 0.6%) 
+leaves                1072/65536       34304/2097152  ( 1.6%) 
+leaffaces             1216/65536        2432/131072   ( 1.9%) 
+leafbrushes            386/65536         772/131072   ( 0.6%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             6606/512000      26424/2048000  ( 1.3%) 
+edges                 3491/256000      13964/1024000  ( 1.4%) 
+LDR worldlights          5/8192          440/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             41/32768         410/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           627/65536        1254/131072   ( 1.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      398556/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       75302/393216   (19.2%) 
+LDR ambient table     1072/65536        4288/262144   ( 1.6%) 
+HDR ambient table     1072/65536        4288/262144   ( 1.6%) 
+LDR leaf ambient      5437/65536      152236/1835008  ( 8.3%) 
+HDR leaf ambient      1072/65536       30016/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/1496328  ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/1262     ( 0.1%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]     1473244/4194304  (35.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2764
+Writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+16 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity func_breakable (2277.50 530.00 -440.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 4608.0 -109.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (512.0 5120.0 -109.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 5120.0 -109.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 3584.0 -109.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 2560.0 -109.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1536.0 5120.0 -109.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2560.0 5120.0 -109.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-3584.0 5120.0 -109.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1473244 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 73 texinfos to 54
+Reduced 8 texdatas to 7 (147 bytes to 129)
+Writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.bsp
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+LoadPortals: couldn't read c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+No vis information, direct lighting only.
+1125 faces
+1 degenerate faces
+2947531 square feet [424444544.00 square inches]
+25 Displacements
+431570 Square Feet [62146176.00 Square Inches]
+5 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 90/8192         1080/98304    ( 1.1%) 
+brushsides             717/65536        5736/524288   ( 1.1%) 
+planes                 850/65536       17000/1310720  ( 1.3%) 
+vertexes              1449/65536       17388/786432   ( 2.2%) 
+nodes                 1068/65536       34176/2097152  ( 1.6%) 
+texinfos                54/12288        3888/884736   ( 0.4%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos               25/0            4400/0        ( 0.0%) 
+disp_verts            7225/0          144500/0        ( 0.0%) 
+disp_tris            12800/0           25600/0        ( 0.0%) 
+disp_lmsamples       53876/0           53876/0        ( 0.0%) 
+faces                 1125/65536       63000/3670016  ( 1.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              393/65536       22008/3670016  ( 0.6%) 
+leaves                1072/65536       34304/2097152  ( 1.6%) 
+leaffaces             1216/65536        2432/131072   ( 1.9%) 
+leafbrushes            386/65536         772/131072   ( 0.6%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             6606/512000      26424/2048000  ( 1.3%) 
+edges                 3491/256000      13964/1024000  ( 1.4%) 
+LDR worldlights          5/8192          440/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             41/32768         410/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           627/65536        1254/131072   ( 1.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      398556/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       75302/393216   (19.2%) 
+LDR ambient table     1072/65536        4288/262144   ( 1.6%) 
+HDR ambient table     1072/65536        4288/262144   ( 1.6%) 
+LDR leaf ambient      5437/65536      152236/1835008  ( 8.3%) 
+HDR leaf ambient      1072/65536       30016/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/1496328  ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/1262     ( 0.1%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]     1473244/4194304  (35.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2764
+Writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+16 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity func_breakable (-154.50 669.00 -528.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 12800.0 170.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (512.0 13312.0 170.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1024.0 12533.0 -781.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1024.0 12533.0 170.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1024.0 12533.0 1122.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1024.0 13045.0 170.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 13312.0 170.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 11776.0 170.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1473308 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 73 texinfos to 54
+Reduced 8 texdatas to 7 (147 bytes to 129)
+Writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.bsp
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+LoadPortals: couldn't read c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+No vis information, direct lighting only.
+1149 faces
+2 degenerate faces
+2627896 square feet [378417088.00 square inches]
+25 Displacements
+431570 Square Feet [62146176.00 Square Inches]
+5 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0033 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 90/8192         1080/98304    ( 1.1%) 
+brushsides             718/65536        5744/524288   ( 1.1%) 
+planes                 868/65536       17360/1310720  ( 1.3%) 
+vertexes              1472/65536       17664/786432   ( 2.2%) 
+nodes                 1082/65536       34624/2097152  ( 1.7%) 
+texinfos                54/12288        3888/884736   ( 0.4%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos               25/0            4400/0        ( 0.0%) 
+disp_verts            7225/0          144500/0        ( 0.0%) 
+disp_tris            12800/0           25600/0        ( 0.0%) 
+disp_lmsamples       53876/0           53876/0        ( 0.0%) 
+faces                 1149/65536       64344/3670016  ( 1.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              391/65536       21896/3670016  ( 0.6%) 
+leaves                1086/65536       34752/2097152  ( 1.7%) 
+leaffaces             1241/65536        2482/131072   ( 1.9%) 
+leafbrushes            391/65536         782/131072   ( 0.6%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             6720/512000      26880/2048000  ( 1.3%) 
+edges                 3558/256000      14232/1024000  ( 1.4%) 
+LDR worldlights          5/8192          440/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             63/32768         630/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           912/65536        1824/131072   ( 1.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      407132/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       75307/393216   (19.2%) 
+LDR ambient table     1086/65536        4344/262144   ( 1.7%) 
+HDR ambient table     1086/65536        4344/262144   ( 1.7%) 
+LDR leaf ambient      5534/65536      154952/1835008  ( 8.4%) 
+HDR leaf ambient      1086/65536       30408/1835008  ( 1.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/1496328  ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/1248     ( 0.1%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]     1473308/4194304  (35.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2838
+Writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+16 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity func_breakable (-154.50 669.00 -528.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 12800.0 170.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (512.0 13312.0 170.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1024.0 12533.0 -781.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1024.0 12533.0 170.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1024.0 12533.0 1122.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1024.0 13045.0 170.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 13312.0 170.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 11776.0 170.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1473308 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 73 texinfos to 54
+Reduced 8 texdatas to 7 (147 bytes to 129)
+Writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.bsp
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+LoadPortals: couldn't read c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+No vis information, direct lighting only.
+1149 faces
+2 degenerate faces
+2673125 square feet [384929984.00 square inches]
+25 Displacements
+431570 Square Feet [62146176.00 Square Inches]
+5 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0033 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 90/8192         1080/98304    ( 1.1%) 
+brushsides             718/65536        5744/524288   ( 1.1%) 
+planes                 868/65536       17360/1310720  ( 1.3%) 
+vertexes              1472/65536       17664/786432   ( 2.2%) 
+nodes                 1082/65536       34624/2097152  ( 1.7%) 
+texinfos                54/12288        3888/884736   ( 0.4%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos               25/0            4400/0        ( 0.0%) 
+disp_verts            7225/0          144500/0        ( 0.0%) 
+disp_tris            12800/0           25600/0        ( 0.0%) 
+disp_lmsamples       53876/0           53876/0        ( 0.0%) 
+faces                 1149/65536       64344/3670016  ( 1.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              391/65536       21896/3670016  ( 0.6%) 
+leaves                1086/65536       34752/2097152  ( 1.7%) 
+leaffaces             1241/65536        2482/131072   ( 1.9%) 
+leafbrushes            391/65536         782/131072   ( 0.6%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             6720/512000      26880/2048000  ( 1.3%) 
+edges                 3558/256000      14232/1024000  ( 1.4%) 
+LDR worldlights          5/8192          440/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             63/32768         630/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           912/65536        1824/131072   ( 1.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      407132/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       75315/393216   (19.2%) 
+LDR ambient table     1086/65536        4344/262144   ( 1.7%) 
+HDR ambient table     1086/65536        4344/262144   ( 1.7%) 
+LDR leaf ambient      5535/65536      154980/1835008  ( 8.4%) 
+HDR leaf ambient      1086/65536       30408/1835008  ( 1.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/1496328  ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/1248     ( 0.1%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]     1473308/4194304  (35.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2838
+Writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+16 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity func_breakable (-154.50 669.00 -528.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 12800.0 170.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (512.0 13312.0 170.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1024.0 12576.0 -777.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1024.0 12576.0 170.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1024.0 12576.0 1118.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1024.0 13088.0 170.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 13312.0 170.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 11776.0 170.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1473308 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 70 texinfos to 54
+Reduced 8 texdatas to 7 (147 bytes to 129)
+Writing C:\Users\admin\Desktop\Hammer Editor\gm_ac3village.bsp
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+reading c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+LoadPortals: couldn't read c:\users\admin\desktop\hammer editor\gm_ac3village.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+No vis information, direct lighting only.
+1149 faces
+2 degenerate faces
+2717981 square feet [391389312.00 square inches]
+25 Displacements
+431570 Square Feet [62146176.00 Square Inches]
+5 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 90/8192         1080/98304    ( 1.1%) 
+brushsides             718/65536        5744/524288   ( 1.1%) 
+planes                 868/65536       17360/1310720  ( 1.3%) 
+vertexes              1472/65536       17664/786432   ( 2.2%) 
+nodes                 1082/65536       34624/2097152  ( 1.7%) 
+texinfos                54/12288        3888/884736   ( 0.4%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos               25/0            4400/0        ( 0.0%) 
+disp_verts            7225/0          144500/0        ( 0.0%) 
+disp_tris            12800/0           25600/0        ( 0.0%) 
+disp_lmsamples       53876/0           53876/0        ( 0.0%) 
+faces                 1149/65536       64344/3670016  ( 1.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              391/65536       21896/3670016  ( 0.6%) 
+leaves                1086/65536       34752/2097152  ( 1.7%) 
+leaffaces             1241/65536        2482/131072   ( 1.9%) 
+leafbrushes            391/65536         782/131072   ( 0.6%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             6720/512000      26880/2048000  ( 1.3%) 
+edges                 3558/256000      14232/1024000  ( 1.4%) 
+LDR worldlights          5/8192          440/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             63/32768         630/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           912/65536        1824/131072   ( 1.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      407132/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       75315/393216   (19.2%) 
+LDR ambient table     1086/65536        4344/262144   ( 1.7%) 
+HDR ambient table     1086/65536        4344/262144   ( 1.7%) 
+LDR leaf ambient      5491/65536      153748/1835008  ( 8.4%) 
+HDR leaf ambient      1086/65536       30408/1835008  ( 1.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/1496328  ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/1248     ( 0.1%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]     1473308/4194304  (35.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2838
+Writing c:\users\admin\desktop\hammer editor\gm_ac3village.bsp
+16 seconds elapsed

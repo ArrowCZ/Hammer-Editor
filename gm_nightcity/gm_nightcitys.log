@@ -1,0 +1,274 @@
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\gm_nightcitys.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/gm_nightcitys/nature/short_red_grass_wvt_patch
+Patching WVT material: maps/gm_nightcitys/nature/blendgrassgrass001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 138 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\admin\Desktop\Hammer Editor\gm_nightcitys.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+Degenerate Triangle
+(-6262.78, 2786.95, 725.66), (-6262.78, 2786.95, 725.66), (-6263.03, 2794.58, 724.92)
+Degenerate Triangle
+(-6262.78, 2786.95, 725.66), (-6262.78, 2786.95, 725.66), (-6263.03, 2779.33, 727.43)
+Degenerate Triangle
+(-6262.31, 2817.02, 735.97), (-6262.31, 2817.02, 735.97), (-6263.03, 2817.46, 738.32)
+Degenerate Triangle
+(-6262.31, 2817.02, 735.97), (-6262.31, 2817.02, 735.97), (-6262.79, 2817.32, 733.90)
+Degenerate Triangle
+(-6266.56, 2786.51, 774.50), (-6266.56, 2786.51, 774.50), (-6266.31, 2794.06, 772.12)
+Degenerate Triangle
+(-6266.56, 2725.50, 850.17), (-6266.56, 2725.50, 850.17), (-6266.31, 2733.09, 844.86)
+Degenerate Triangle
+(-6266.56, 2694.99, 857.48), (-6266.56, 2694.99, 857.48), (-6266.31, 2702.60, 857.56)
+Degenerate Triangle
+(-6263.06, 2748.38, 829.39), (-6263.06, 2748.38, 829.39), (-6263.31, 2748.38, 829.47)
+Degenerate Triangle
+(-6263.06, 2748.38, 829.39), (-6263.06, 2748.38, 829.39), (-6262.81, 2748.38, 829.30)
+Degenerate Triangle
+(-6266.56, 2694.99, 837.81), (-6266.56, 2694.99, 837.81), (-6266.31, 2694.99, 840.51)
+Degenerate Triangle
+(-6266.56, 2694.99, 812.48), (-6266.56, 2694.99, 812.48), (-6266.31, 2694.99, 815.93)
+Degenerate Triangle
+(-6264.06, 2694.99, 819.00), (-6263.81, 2694.99, 815.55), (-6263.81, 2694.99, 815.55)
+Degenerate Triangle
+(-6263.81, 2694.99, 815.55), (-6263.56, 2694.99, 818.92), (-6263.81, 2694.99, 815.55)
+Degenerate Triangle
+(-6263.56, 2694.99, 845.47), (-6263.56, 2694.99, 845.46), (-6263.81, 2694.99, 845.49)
+Degenerate Triangle
+(-6263.56, 2694.99, 845.46), (-6263.56, 2694.99, 845.47), (-6263.31, 2694.99, 845.43)
+done (0) (3469945 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1131 texinfos to 723
+Reduced 92 texdatas to 82 (2379 bytes to 1997)
+Writing C:\Users\admin\Desktop\Hammer Editor\gm_nightcitys.bsp
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\gm_nightcitys.bsp
+reading c:\users\admin\desktop\hammer editor\gm_nightcitys.prt
+1062 portalclusters
+2806 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3333 visible clusters (1.02%)
+Total clusters visible: 327363
+Average clusters visible: 308
+Building PAS...
+Average clusters audible: 916
+visdatasize:251154  compressed from 288864
+writing c:\users\admin\desktop\hammer editor\gm_nightcitys.bsp
+1 minute, 24 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\gm_nightcitys.bsp
+4393 faces
+1 degenerate faces
+734719 square feet [105799616.00 square inches]
+54 Displacements
+9820 Square Feet [1414111.38 Square Inches]
+4392 patches before subdivision
+57638 patches after subdivision
+96 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5573655, max 767
+transfer lists:  42.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(288349, 269837, 212328)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(93579, 80782, 48137)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(35291, 27879, 12446)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(14222, 10173, 3350)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6107, 3928, 943)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2733, 1572, 272)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1264, 649, 80)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(598, 274, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(288, 118, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(141, 51, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(69, 22, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(34, 10, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(17, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(9, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0198 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  39/1024         1872/49152    ( 3.8%) 
+brushes               1035/8192        12420/98304    (12.6%) 
+brushsides            6392/65536       51136/524288   ( 9.8%) 
+planes                2466/65536       49320/1310720  ( 3.8%) 
+vertexes              7382/65536       88584/786432   (11.3%) 
+nodes                 2585/65536       82720/2097152  ( 3.9%) 
+texinfos               723/12288       52056/884736   ( 5.9%) 
+texdata                 82/2048         2624/65536    ( 4.0%) 
+dispinfos               54/0            9504/0        ( 0.0%) 
+disp_verts           15606/0          312120/0        ( 0.0%) 
+disp_tris            27648/0           55296/0        ( 0.0%) 
+disp_lmsamples       32074/0           32074/0        ( 0.0%) 
+faces                 4393/65536      246008/3670016  ( 6.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2577/65536      144312/3670016  ( 3.9%) 
+leaves                2625/65536       84000/2097152  ( 4.0%) 
+leaffaces             4851/65536        9702/131072   ( 7.4%) 
+leafbrushes           2102/65536        4204/131072   ( 3.2%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            31293/512000     125172/2048000  ( 6.1%) 
+edges                18355/256000      73420/1024000  ( 7.2%) 
+LDR worldlights         96/8192         8448/720896   ( 1.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            352/32768        3520/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5847/65536       11694/131072   ( 8.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     2637156/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      251154/16777216 ( 1.5%) 
+entdata               [variable]      196669/393216   (50.0%) 
+LDR ambient table     2625/65536       10500/262144   ( 4.0%) 
+HDR ambient table     2625/65536       10500/262144   ( 4.0%) 
+LDR leaf ambient      9380/65536      262640/1835008  (14.3%) 
+HDR leaf ambient      2625/65536       73500/1835008  ( 4.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4908     ( 0.0%) 
+pakfile               [variable]      175995/0        ( 0.0%) 
+physics               [variable]     3469945/4194304  (82.7%) VERY FULL!
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 12170
+Writing c:\users\admin\desktop\hammer editor\gm_nightcitys.bsp
+43 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\gm_nightcitys.bsp
+4393 faces
+1 degenerate faces
+734719 square feet [105799616.00 square inches]
+54 Displacements
+9820 Square Feet [1414111.38 Square Inches]
+4392 patches before subdivision
+57638 patches after subdivision
+96 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5573655, max 767
+transfer lists:  42.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(288349, 269837, 212328)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(93579, 80782, 48137)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(35291, 27879, 12446)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(14222, 10173, 3350)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6107, 3928, 943)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2733, 1572, 272)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1264, 649, 80)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(598, 274, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(288, 118, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(141, 51, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(69, 22, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(34, 10, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(17, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(9, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0221 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  39/1024         1872/49152    ( 3.8%) 
+brushes               1035/8192        12420/98304    (12.6%) 
+brushsides            6392/65536       51136/524288   ( 9.8%) 
+planes                2466/65536       49320/1310720  ( 3.8%) 
+vertexes              7382/65536       88584/786432   (11.3%) 
+nodes                 2585/65536       82720/2097152  ( 3.9%) 
+texinfos               723/12288       52056/884736   ( 5.9%) 
+texdata                 82/2048         2624/65536    ( 4.0%) 
+dispinfos               54/0            9504/0        ( 0.0%) 
+disp_verts           15606/0          312120/0        ( 0.0%) 
+disp_tris            27648/0           55296/0        ( 0.0%) 
+disp_lmsamples       32074/0           32074/0        ( 0.0%) 
+faces                 4393/65536      246008/3670016  ( 6.7%) 
+hdr faces             4393/65536      246008/3670016  ( 6.7%) 
+origfaces             2577/65536      144312/3670016  ( 3.9%) 
+leaves                2625/65536       84000/2097152  ( 4.0%) 
+leaffaces             4851/65536        9702/131072   ( 7.4%) 
+leafbrushes           2102/65536        4204/131072   ( 3.2%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            31293/512000     125172/2048000  ( 6.1%) 
+edges                18355/256000      73420/1024000  ( 7.2%) 
+LDR worldlights         96/8192         8448/720896   ( 1.2%) 
+HDR worldlights         96/8192         8448/720896   ( 1.2%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            352/32768        3520/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5847/65536       11694/131072   ( 8.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     2637156/0        ( 0.0%) 
+HDR lightdata         [variable]     2637156/0        ( 0.0%) 
+visdata               [variable]      251154/16777216 ( 1.5%) 
+entdata               [variable]      196669/393216   (50.0%) 
+LDR ambient table     2625/65536       10500/262144   ( 4.0%) 
+HDR ambient table     2625/65536       10500/262144   ( 4.0%) 
+LDR leaf ambient      9380/65536      262640/1835008  (14.3%) 
+HDR leaf ambient      9380/65536      262640/1835008  (14.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4908     ( 0.0%) 
+pakfile               [variable]      175995/0        ( 0.0%) 
+physics               [variable]     3469945/4194304  (82.7%) VERY FULL!
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 12170
+Writing c:\users\admin\desktop\hammer editor\gm_nightcitys.bsp
+43 seconds elapsed

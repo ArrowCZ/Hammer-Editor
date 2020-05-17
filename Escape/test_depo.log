@@ -1,0 +1,183 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\stalker\materials
+Loading C:\Users\Matìj\Desktop\Hammer Editor\Escape\test_depo.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\stalker\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...Brush 79: WARNING, microbrush
+5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (351.0 4793.4 -621.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 79: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (351.0 4354.2 -621.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 79: 
+
+0...1...2...3...4...Brush 79: WARNING, microbrush
+5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (351.0 4793.4 -621.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 79: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (351.0 4354.2 -621.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 79: 
+
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 196 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Matìj\Desktop\Hammer Editor\Escape\test_depo.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (135964 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...Material NATURE/BLENDGRASSDIRT01 uses unknown detail object type forest_floor_01!
+Material NATURE/BLENDGRASSDIRT01 uses unknown detail object type forest_floor_01!
+Material NATURE/BLENDGRASSDIRT01 uses unknown detail object type forest_floor_01!
+Material NATURE/BLENDGRASSDIRT01 uses unknown detail object type forest_floor_01!
+Material NATURE/BLENDGRASSDIRT01 uses unknown detail object type forest_floor_01!
+Material NATURE/BLENDGRASSDIRT01 uses unknown detail object type forest_floor_01!
+Material NATURE/BLENDGRASSDIRT01 uses unknown detail object type forest_floor_01!
+Material NATURE/BLENDGRASSDIRT01 uses unknown detail object type forest_floor_01!
+Material NATURE/BLENDGRASSDIRT01 uses unknown detail object type forest_floor_01!
+Material NATURE/BLENDGRASSDIRT01 uses unknown detail object type forest_floor_01!
+Material NATURE/BLENDGRASSDIRT01 uses unknown detail object type forest_floor_01!
+Material NATURE/BLENDGRASSDIRT01 uses unknown detail object type forest_floor_01!
+Material NATURE/BLENDGRASSDIRT01 uses unknown detail object type forest_floor_01!
+10
+Compacting texture/material tables...
+Reduced 443 texinfos to 304
+Reduced 48 texdatas to 42 (1251 bytes to 990)
+Writing C:\Users\Matìj\Desktop\Hammer Editor\Escape\test_depo.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\matìj\desktop\hammer editor\escape\test_depo.bsp
+reading c:\users\matìj\desktop\hammer editor\escape\test_depo.prt
+ 373 portalclusters
+1200 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 432 visible clusters (0.37%)
+Total clusters visible: 116839
+Average clusters visible: 313
+Building PAS...
+Average clusters audible: 373
+visdatasize:38044  compressed from 35808
+writing c:\users\matìj\desktop\hammer editor\escape\test_depo.bsp
+25 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\matìj\desktop\hammer editor\escape\test_depo.bsp
+1455 faces
+1 degenerate faces
+1174223 square feet [169088160.00 square inches]
+13 Displacements
+61141 Square Feet [8804350.00 Square Inches]
+1454 patches before subdivision
+31052 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2834266, max 583
+transfer lists:  21.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(320, 301, 262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(26, 24, 19)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0145 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                380/8192         4560/98304    ( 4.6%) 
+brushsides            3600/65536       28800/524288   ( 5.5%) 
+planes                3082/65536       61640/1310720  ( 4.7%) 
+vertexes              2369/65536       28428/786432   ( 3.6%) 
+nodes                  749/65536       23968/2097152  ( 1.1%) 
+texinfos               304/12288       21888/884736   ( 2.5%) 
+texdata                 42/2048         1344/65536    ( 2.1%) 
+dispinfos               13/0            2288/0        ( 0.0%) 
+disp_verts            1053/0           21060/0        ( 0.0%) 
+disp_tris             1664/0            3328/0        ( 0.0%) 
+disp_lmsamples      147304/0          147304/0        ( 0.0%) 
+faces                 1455/65536       81480/3670016  ( 2.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              823/65536       46088/3670016  ( 1.3%) 
+leaves                 751/65536       24032/2097152  ( 1.1%) 
+leaffaces             2006/65536        4012/131072   ( 3.1%) 
+leafbrushes            958/65536        1916/131072   ( 1.5%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             9847/512000      39388/2048000  ( 1.9%) 
+edges                 5875/256000      23500/1024000  ( 2.3%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            183/32768        1830/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3051/65536        6102/131072   ( 4.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     2230252/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       38044/16777216 ( 0.2%) 
+entdata               [variable]        1832/393216   ( 0.5%) 
+LDR ambient table      751/65536        3004/262144   ( 1.1%) 
+HDR ambient table      751/65536        3004/262144   ( 1.1%) 
+LDR leaf ambient      2916/65536       81648/1835008  ( 4.4%) 
+HDR leaf ambient       751/65536       21028/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      212859/0        ( 0.0%) 
+physics               [variable]      135964/4194304  ( 3.2%) 
+physics terrain       [variable]        5633/1048576  ( 0.5%) 
+
+Level flags = 0
+
+Total triangle count: 3674
+Writing c:\users\matìj\desktop\hammer editor\escape\test_depo.bsp
+16 seconds elapsed

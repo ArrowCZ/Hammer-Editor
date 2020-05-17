@@ -1,0 +1,2599 @@
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/gm_castle/stone/blend_building_sidewalk_wvt_patch
+Patching WVT material: maps/gm_castle/stone/infflrd_blend_dirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 258 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (164782 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 703 texinfos to 405
+Reduced 25 texdatas to 21 (638 bytes to 514)
+Writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.prt
+ 259 portalclusters
+ 851 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 133 visible clusters (0.39%)
+Total clusters visible: 33792
+Average clusters visible: 130
+Building PAS...
+Average clusters audible: 252
+visdatasize:19030  compressed from 20720
+writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+1280 faces
+21 degenerate faces
+173940 square feet [25047502.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1259 patches before subdivision
+6717 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 444000, max 455
+transfer lists:   3.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(19163, 7787, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6152, 2320, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(3029, 1067, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1503, 493, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(761, 233, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(385, 110, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(196, 52, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(100, 25, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(51, 12, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(26, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(13, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0024 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                463/8192         5556/98304    ( 5.7%) 
+brushsides            4294/65536       34352/524288   ( 6.6%) 
+planes                3910/65536       78200/1310720  ( 6.0%) 
+vertexes              2201/65536       26412/786432   ( 3.4%) 
+nodes                  528/65536       16896/2097152  ( 0.8%) 
+texinfos               405/12288       29160/884736   ( 3.3%) 
+texdata                 21/2048          672/65536    ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1280/65536       71680/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              990/65536       55440/3670016  ( 1.5%) 
+leaves                 530/65536       16960/2097152  ( 0.8%) 
+leaffaces             1602/65536        3204/131072   ( 2.4%) 
+leafbrushes            778/65536        1556/131072   ( 1.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            10286/512000      41144/2048000  ( 2.0%) 
+edges                 6245/256000      24980/1024000  ( 2.4%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            229/32768        2290/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4062/65536        8124/131072   ( 6.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]      233736/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       19030/16777216 ( 0.1%) 
+entdata               [variable]       23461/393216   ( 6.0%) 
+LDR ambient table      530/65536        2120/262144   ( 0.8%) 
+HDR ambient table      530/65536        2120/262144   ( 0.8%) 
+LDR leaf ambient      1876/65536       52528/1835008  ( 2.9%) 
+HDR leaf ambient       530/65536       14840/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      212168/0        ( 0.0%) 
+physics               [variable]      164782/4194304  ( 3.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3780
+Writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+8 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/gm_castle/stone/blend_building_sidewalk_wvt_patch
+Patching WVT material: maps/gm_castle/stone/infflrd_blend_dirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 258 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (164782 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 705 texinfos to 406
+Reduced 25 texdatas to 21 (638 bytes to 514)
+Writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.prt
+ 259 portalclusters
+ 851 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 133 visible clusters (0.39%)
+Total clusters visible: 33792
+Average clusters visible: 130
+Building PAS...
+Average clusters audible: 252
+visdatasize:19030  compressed from 20720
+writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+1282 faces
+21 degenerate faces
+173940 square feet [25047502.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1261 patches before subdivision
+6695 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 443495, max 455
+transfer lists:   3.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(422, 349, 212)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(72, 44, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(33, 17, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(16, 7, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(8, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0022 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                463/8192         5556/98304    ( 5.7%) 
+brushsides            4294/65536       34352/524288   ( 6.6%) 
+planes                3910/65536       78200/1310720  ( 6.0%) 
+vertexes              2202/65536       26424/786432   ( 3.4%) 
+nodes                  528/65536       16896/2097152  ( 0.8%) 
+texinfos               406/12288       29232/884736   ( 3.3%) 
+texdata                 21/2048          672/65536    ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1282/65536       71792/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              991/65536       55496/3670016  ( 1.5%) 
+leaves                 530/65536       16960/2097152  ( 0.8%) 
+leaffaces             1604/65536        3208/131072   ( 2.4%) 
+leafbrushes            778/65536        1556/131072   ( 1.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            10298/512000      41192/2048000  ( 2.0%) 
+edges                 6251/256000      25004/1024000  ( 2.4%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            229/32768        2290/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4065/65536        8130/131072   ( 6.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]      233920/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       19030/16777216 ( 0.1%) 
+entdata               [variable]       23686/393216   ( 6.0%) 
+LDR ambient table      530/65536        2120/262144   ( 0.8%) 
+HDR ambient table      530/65536        2120/262144   ( 0.8%) 
+LDR leaf ambient      1346/65536       37688/1835008  ( 2.1%) 
+HDR leaf ambient       530/65536       14840/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      212168/0        ( 0.0%) 
+physics               [variable]      164782/4194304  ( 3.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3784
+Writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+8 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/gm_castle/stone/blend_building_sidewalk_wvt_patch
+Patching WVT material: maps/gm_castle/stone/infflrd_blend_dirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 258 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (164782 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 705 texinfos to 406
+Reduced 25 texdatas to 21 (638 bytes to 514)
+Writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.prt
+ 259 portalclusters
+ 851 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 133 visible clusters (0.39%)
+Total clusters visible: 33792
+Average clusters visible: 130
+Building PAS...
+Average clusters audible: 252
+visdatasize:19030  compressed from 20720
+writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+1282 faces
+21 degenerate faces
+173940 square feet [25047502.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1261 patches before subdivision
+6695 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 443495, max 455
+transfer lists:   3.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(422, 349, 212)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(72, 44, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(33, 17, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(16, 7, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(8, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0022 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                463/8192         5556/98304    ( 5.7%) 
+brushsides            4294/65536       34352/524288   ( 6.6%) 
+planes                3910/65536       78200/1310720  ( 6.0%) 
+vertexes              2202/65536       26424/786432   ( 3.4%) 
+nodes                  528/65536       16896/2097152  ( 0.8%) 
+texinfos               406/12288       29232/884736   ( 3.3%) 
+texdata                 21/2048          672/65536    ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1282/65536       71792/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              991/65536       55496/3670016  ( 1.5%) 
+leaves                 530/65536       16960/2097152  ( 0.8%) 
+leaffaces             1604/65536        3208/131072   ( 2.4%) 
+leafbrushes            778/65536        1556/131072   ( 1.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            10298/512000      41192/2048000  ( 2.0%) 
+edges                 6251/256000      25004/1024000  ( 2.4%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            229/32768        2290/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4065/65536        8130/131072   ( 6.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]      233920/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       19030/16777216 ( 0.1%) 
+entdata               [variable]       23686/393216   ( 6.0%) 
+LDR ambient table      530/65536        2120/262144   ( 0.8%) 
+HDR ambient table      530/65536        2120/262144   ( 0.8%) 
+LDR leaf ambient      1346/65536       37688/1835008  ( 2.1%) 
+HDR leaf ambient       530/65536       14840/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      212168/0        ( 0.0%) 
+physics               [variable]      164782/4194304  ( 3.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3784
+Writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+8 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/gm_castle/stone/blend_building_sidewalk_wvt_patch
+Patching WVT material: maps/gm_castle/stone/infflrd_blend_dirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 258 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (164782 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 705 texinfos to 406
+Reduced 25 texdatas to 21 (638 bytes to 514)
+Writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.prt
+ 259 portalclusters
+ 851 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 133 visible clusters (0.39%)
+Total clusters visible: 33792
+Average clusters visible: 130
+Building PAS...
+Average clusters audible: 252
+visdatasize:19030  compressed from 20720
+writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+3 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+1282 faces
+21 degenerate faces
+173940 square feet [25047502.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1261 patches before subdivision
+6695 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 443495, max 455
+transfer lists:   3.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(422, 349, 212)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(72, 44, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(33, 17, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(16, 7, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(8, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0023 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                463/8192         5556/98304    ( 5.7%) 
+brushsides            4294/65536       34352/524288   ( 6.6%) 
+planes                3910/65536       78200/1310720  ( 6.0%) 
+vertexes              2202/65536       26424/786432   ( 3.4%) 
+nodes                  528/65536       16896/2097152  ( 0.8%) 
+texinfos               406/12288       29232/884736   ( 3.3%) 
+texdata                 21/2048          672/65536    ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1282/65536       71792/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              991/65536       55496/3670016  ( 1.5%) 
+leaves                 530/65536       16960/2097152  ( 0.8%) 
+leaffaces             1604/65536        3208/131072   ( 2.4%) 
+leafbrushes            778/65536        1556/131072   ( 1.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            10298/512000      41192/2048000  ( 2.0%) 
+edges                 6251/256000      25004/1024000  ( 2.4%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            229/32768        2290/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4065/65536        8130/131072   ( 6.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]      233920/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       19030/16777216 ( 0.1%) 
+entdata               [variable]       23690/393216   ( 6.0%) 
+LDR ambient table      530/65536        2120/262144   ( 0.8%) 
+HDR ambient table      530/65536        2120/262144   ( 0.8%) 
+LDR leaf ambient      1346/65536       37688/1835008  ( 2.1%) 
+HDR leaf ambient       530/65536       14840/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      212168/0        ( 0.0%) 
+physics               [variable]      164782/4194304  ( 3.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3784
+Writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+8 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/gm_castle/stone/blend_building_sidewalk_wvt_patch
+Patching WVT material: maps/gm_castle/stone/infflrd_blend_dirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 258 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (164782 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 705 texinfos to 406
+Reduced 25 texdatas to 21 (638 bytes to 514)
+Writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.prt
+ 259 portalclusters
+ 851 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 133 visible clusters (0.39%)
+Total clusters visible: 33792
+Average clusters visible: 130
+Building PAS...
+Average clusters audible: 252
+visdatasize:19030  compressed from 20720
+writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+1282 faces
+21 degenerate faces
+173940 square feet [25047502.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1261 patches before subdivision
+6695 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 443495, max 455
+transfer lists:   3.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(422, 349, 212)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(72, 44, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(33, 17, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(16, 7, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(8, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0021 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                463/8192         5556/98304    ( 5.7%) 
+brushsides            4294/65536       34352/524288   ( 6.6%) 
+planes                3910/65536       78200/1310720  ( 6.0%) 
+vertexes              2202/65536       26424/786432   ( 3.4%) 
+nodes                  528/65536       16896/2097152  ( 0.8%) 
+texinfos               406/12288       29232/884736   ( 3.3%) 
+texdata                 21/2048          672/65536    ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1282/65536       71792/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              991/65536       55496/3670016  ( 1.5%) 
+leaves                 530/65536       16960/2097152  ( 0.8%) 
+leaffaces             1604/65536        3208/131072   ( 2.4%) 
+leafbrushes            778/65536        1556/131072   ( 1.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            10298/512000      41192/2048000  ( 2.0%) 
+edges                 6251/256000      25004/1024000  ( 2.4%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            229/32768        2290/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4065/65536        8130/131072   ( 6.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]      233920/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       19030/16777216 ( 0.1%) 
+entdata               [variable]       23153/393216   ( 5.9%) 
+LDR ambient table      530/65536        2120/262144   ( 0.8%) 
+HDR ambient table      530/65536        2120/262144   ( 0.8%) 
+LDR leaf ambient      1346/65536       37688/1835008  ( 2.1%) 
+HDR leaf ambient       530/65536       14840/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      212168/0        ( 0.0%) 
+physics               [variable]      164782/4194304  ( 3.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3784
+Writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+8 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/gm_castle/stone/blend_building_sidewalk_wvt_patch
+Patching WVT material: maps/gm_castle/stone/infflrd_blend_dirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 258 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (164782 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 705 texinfos to 406
+Reduced 25 texdatas to 21 (638 bytes to 514)
+Writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.prt
+ 259 portalclusters
+ 851 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 133 visible clusters (0.39%)
+Total clusters visible: 33792
+Average clusters visible: 130
+Building PAS...
+Average clusters audible: 252
+visdatasize:19030  compressed from 20720
+writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+1282 faces
+21 degenerate faces
+173940 square feet [25047502.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1261 patches before subdivision
+6695 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 443495, max 455
+transfer lists:   3.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(422, 349, 212)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(72, 44, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(33, 17, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(16, 7, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(8, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0021 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                463/8192         5556/98304    ( 5.7%) 
+brushsides            4294/65536       34352/524288   ( 6.6%) 
+planes                3910/65536       78200/1310720  ( 6.0%) 
+vertexes              2202/65536       26424/786432   ( 3.4%) 
+nodes                  528/65536       16896/2097152  ( 0.8%) 
+texinfos               406/12288       29232/884736   ( 3.3%) 
+texdata                 21/2048          672/65536    ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1282/65536       71792/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              991/65536       55496/3670016  ( 1.5%) 
+leaves                 530/65536       16960/2097152  ( 0.8%) 
+leaffaces             1604/65536        3208/131072   ( 2.4%) 
+leafbrushes            778/65536        1556/131072   ( 1.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            10298/512000      41192/2048000  ( 2.0%) 
+edges                 6251/256000      25004/1024000  ( 2.4%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            229/32768        2290/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4065/65536        8130/131072   ( 6.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]      233920/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       19030/16777216 ( 0.1%) 
+entdata               [variable]       23169/393216   ( 5.9%) 
+LDR ambient table      530/65536        2120/262144   ( 0.8%) 
+HDR ambient table      530/65536        2120/262144   ( 0.8%) 
+LDR leaf ambient      1346/65536       37688/1835008  ( 2.1%) 
+HDR leaf ambient       530/65536       14840/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      212168/0        ( 0.0%) 
+physics               [variable]      164782/4194304  ( 3.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3784
+Writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+8 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/gm_castle/stone/blend_building_sidewalk_wvt_patch
+Patching WVT material: maps/gm_castle/stone/infflrd_blend_dirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 258 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (164782 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 705 texinfos to 406
+Reduced 25 texdatas to 21 (638 bytes to 514)
+Writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.prt
+ 259 portalclusters
+ 851 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 133 visible clusters (0.39%)
+Total clusters visible: 33792
+Average clusters visible: 130
+Building PAS...
+Average clusters audible: 252
+visdatasize:19030  compressed from 20720
+writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+1282 faces
+21 degenerate faces
+173940 square feet [25047502.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1261 patches before subdivision
+6695 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 443495, max 455
+transfer lists:   3.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1882, 941, 213)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(525, 214, 18)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(255, 95, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(125, 43, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(63, 20, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(32, 10, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(16, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(8, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0023 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                463/8192         5556/98304    ( 5.7%) 
+brushsides            4294/65536       34352/524288   ( 6.6%) 
+planes                3910/65536       78200/1310720  ( 6.0%) 
+vertexes              2202/65536       26424/786432   ( 3.4%) 
+nodes                  528/65536       16896/2097152  ( 0.8%) 
+texinfos               406/12288       29232/884736   ( 3.3%) 
+texdata                 21/2048          672/65536    ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1282/65536       71792/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              991/65536       55496/3670016  ( 1.5%) 
+leaves                 530/65536       16960/2097152  ( 0.8%) 
+leaffaces             1604/65536        3208/131072   ( 2.4%) 
+leafbrushes            778/65536        1556/131072   ( 1.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            10298/512000      41192/2048000  ( 2.0%) 
+edges                 6251/256000      25004/1024000  ( 2.4%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            229/32768        2290/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4065/65536        8130/131072   ( 6.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]      233920/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       19030/16777216 ( 0.1%) 
+entdata               [variable]       23179/393216   ( 5.9%) 
+LDR ambient table      530/65536        2120/262144   ( 0.8%) 
+HDR ambient table      530/65536        2120/262144   ( 0.8%) 
+LDR leaf ambient      1628/65536       45584/1835008  ( 2.5%) 
+HDR leaf ambient       530/65536       14840/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      212168/0        ( 0.0%) 
+physics               [variable]      164782/4194304  ( 3.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3784
+Writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+8 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/gm_castle/stone/blend_building_sidewalk_wvt_patch
+Patching WVT material: maps/gm_castle/stone/infflrd_blend_dirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 304 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (203566 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1244 texinfos to 823
+Reduced 25 texdatas to 21 (638 bytes to 514)
+Writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.prt
+ 259 portalclusters
+ 851 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 133 visible clusters (0.39%)
+Total clusters visible: 33796
+Average clusters visible: 130
+Building PAS...
+Average clusters audible: 252
+visdatasize:19032  compressed from 20720
+writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+1826 faces
+21 degenerate faces
+174054 square feet [25063850.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1805 patches before subdivision
+7233 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 687916, max 657
+transfer lists:   5.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(113808, 14229, 218)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(32783, 3812, 20)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(14768, 1600, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(7154, 722, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(3567, 336, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1798, 158, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(911, 75, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(463, 35, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(235, 17, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(120, 8, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(61, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(31, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(16, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0022 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                565/8192         6780/98304    ( 6.9%) 
+brushsides            7586/65536       60688/524288   (11.6%) 
+planes                9740/65536      194800/1310720  (14.9%) 
+vertexes              3168/65536       38016/786432   ( 4.8%) 
+nodes                  528/65536       16896/2097152  ( 0.8%) 
+texinfos               823/12288       59256/884736   ( 6.7%) 
+texdata                 21/2048          672/65536    ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1826/65536      102256/3670016  ( 2.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1474/65536       82544/3670016  ( 2.2%) 
+leaves                 530/65536       16960/2097152  ( 0.8%) 
+leaffaces             2165/65536        4330/131072   ( 3.3%) 
+leafbrushes            884/65536        1768/131072   ( 1.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            15259/512000      61036/2048000  ( 3.0%) 
+edges                 9325/256000      37300/1024000  ( 3.6%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            325/32768        3250/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6159/65536       12318/131072   ( 9.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]      249788/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       19032/16777216 ( 0.1%) 
+entdata               [variable]       63327/393216   (16.1%) 
+LDR ambient table      530/65536        2120/262144   ( 0.8%) 
+HDR ambient table      530/65536        2120/262144   ( 0.8%) 
+LDR leaf ambient      1986/65536       55608/1835008  ( 3.0%) 
+HDR leaf ambient       530/65536       14840/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      212168/0        ( 0.0%) 
+physics               [variable]      203566/4194304  ( 4.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5701
+Writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+10 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/gm_castle/stone/blend_building_sidewalk_wvt_patch
+Patching WVT material: maps/gm_castle/stone/infflrd_blend_dirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 304 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (203566 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1244 texinfos to 823
+Reduced 25 texdatas to 21 (638 bytes to 514)
+Writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.prt
+ 259 portalclusters
+ 851 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 133 visible clusters (0.39%)
+Total clusters visible: 33796
+Average clusters visible: 130
+Building PAS...
+Average clusters audible: 252
+visdatasize:19032  compressed from 20720
+writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+1826 faces
+21 degenerate faces
+174054 square feet [25063850.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1805 patches before subdivision
+7233 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 687916, max 657
+transfer lists:   5.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4776, 814, 213)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1223, 163, 18)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(530, 65, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(253, 29, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(125, 13, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(63, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(32, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(16, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(8, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0022 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                565/8192         6780/98304    ( 6.9%) 
+brushsides            7586/65536       60688/524288   (11.6%) 
+planes                9740/65536      194800/1310720  (14.9%) 
+vertexes              3168/65536       38016/786432   ( 4.8%) 
+nodes                  528/65536       16896/2097152  ( 0.8%) 
+texinfos               823/12288       59256/884736   ( 6.7%) 
+texdata                 21/2048          672/65536    ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1826/65536      102256/3670016  ( 2.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1474/65536       82544/3670016  ( 2.2%) 
+leaves                 530/65536       16960/2097152  ( 0.8%) 
+leaffaces             2165/65536        4330/131072   ( 3.3%) 
+leafbrushes            884/65536        1768/131072   ( 1.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            15259/512000      61036/2048000  ( 3.0%) 
+edges                 9325/256000      37300/1024000  ( 3.6%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            325/32768        3250/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6159/65536       12318/131072   ( 9.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]      249788/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       19032/16777216 ( 0.1%) 
+entdata               [variable]       63351/393216   (16.1%) 
+LDR ambient table      530/65536        2120/262144   ( 0.8%) 
+HDR ambient table      530/65536        2120/262144   ( 0.8%) 
+LDR leaf ambient      1636/65536       45808/1835008  ( 2.5%) 
+HDR leaf ambient       530/65536       14840/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      212168/0        ( 0.0%) 
+physics               [variable]      203566/4194304  ( 4.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5701
+Writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+10 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/gm_castle/stone/blend_building_sidewalk_wvt_patch
+Patching WVT material: maps/gm_castle/stone/infflrd_blend_dirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 382 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (260101 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1294 texinfos to 859
+Reduced 26 texdatas to 22 (657 bytes to 533)
+Writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.prt
+ 259 portalclusters
+ 857 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 111 visible clusters (0.32%)
+Total clusters visible: 34222
+Average clusters visible: 132
+Building PAS...
+Average clusters audible: 253
+visdatasize:19092  compressed from 20720
+writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+2141 faces
+34 degenerate faces
+184503 square feet [26568540.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2107 patches before subdivision
+7521 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 788177, max 732
+transfer lists:   6.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4848, 827, 219)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1264, 168, 19)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(554, 67, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(265, 30, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(132, 14, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(66, 7, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(34, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(17, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(9, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0025 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                723/8192         8676/98304    ( 8.8%) 
+brushsides            9252/65536       74016/524288   (14.1%) 
+planes               11368/65536      227360/1310720  (17.3%) 
+vertexes              3602/65536       43224/786432   ( 5.5%) 
+nodes                  550/65536       17600/2097152  ( 0.8%) 
+texinfos               859/12288       61848/884736   ( 7.0%) 
+texdata                 22/2048          704/65536    ( 1.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2141/65536      119896/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1787/65536      100072/3670016  ( 2.7%) 
+leaves                 554/65536       17728/2097152  ( 0.8%) 
+leaffaces             2482/65536        4964/131072   ( 3.8%) 
+leafbrushes           1055/65536        2110/131072   ( 1.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            17972/512000      71888/2048000  ( 3.5%) 
+edges                10945/256000      43780/1024000  ( 4.3%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            381/32768        3810/327680   ( 1.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          7239/65536       14478/131072   (11.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]      266632/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       19092/16777216 ( 0.1%) 
+entdata               [variable]       64183/393216   (16.3%) 
+LDR ambient table      554/65536        2216/262144   ( 0.8%) 
+HDR ambient table      554/65536        2216/262144   ( 0.8%) 
+LDR leaf ambient      1730/65536       48440/1835008  ( 2.6%) 
+HDR leaf ambient       554/65536       15512/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      212168/0        ( 0.0%) 
+physics               [variable]      260101/4194304  ( 6.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 6551
+Writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+10 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/gm_castle/stone/blend_building_sidewalk_wvt_patch
+Patching WVT material: maps/gm_castle/stone/infflrd_blend_dirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 416 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (271933 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1374 texinfos to 949
+Reduced 29 texdatas to 25 (710 bytes to 586)
+Writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.bsp
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.prt
+ 259 portalclusters
+ 857 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 111 visible clusters (0.32%)
+Total clusters visible: 34222
+Average clusters visible: 132
+Building PAS...
+Average clusters audible: 253
+visdatasize:19092  compressed from 20720
+writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+2259 faces
+35 degenerate faces
+185113 square feet [26656316.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2224 patches before subdivision
+7758 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 868424, max 784
+transfer lists:   6.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4892, 833, 219)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1293, 172, 19)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(570, 69, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(274, 31, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(136, 14, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(68, 7, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(34, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(17, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(9, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0023 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                754/8192         9048/98304    ( 9.2%) 
+brushsides            9500/65536       76000/524288   (14.5%) 
+planes               11564/65536      231280/1310720  (17.6%) 
+vertexes              3777/65536       45324/786432   ( 5.8%) 
+nodes                  550/65536       17600/2097152  ( 0.8%) 
+texinfos               949/12288       68328/884736   ( 7.7%) 
+texdata                 25/2048          800/65536    ( 1.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2259/65536      126504/3670016  ( 3.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1904/65536      106624/3670016  ( 2.9%) 
+leaves                 554/65536       17728/2097152  ( 0.8%) 
+leaffaces             2630/65536        5260/131072   ( 4.0%) 
+leafbrushes           1104/65536        2208/131072   ( 1.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            18934/512000      75736/2048000  ( 3.7%) 
+edges                11545/256000      46180/1024000  ( 4.5%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            387/32768        3870/327680   ( 1.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          7245/65536       14490/131072   (11.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 7/512          2464/180224   ( 1.4%) 
+LDR lightdata         [variable]      274576/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       19092/16777216 ( 0.1%) 
+entdata               [variable]       64898/393216   (16.5%) 
+LDR ambient table      554/65536        2216/262144   ( 0.8%) 
+HDR ambient table      554/65536        2216/262144   ( 0.8%) 
+LDR leaf ambient      1735/65536       48580/1835008  ( 2.6%) 
+HDR leaf ambient       554/65536       15512/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      212168/0        ( 0.0%) 
+physics               [variable]      271933/4194304  ( 6.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 6807
+Writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+11 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/gm_castle/stone/blend_building_sidewalk_wvt_patch
+Patching WVT material: maps/gm_castle/stone/infflrd_blend_dirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 422 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (278405 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1463 texinfos to 1018
+Reduced 29 texdatas to 25 (710 bytes to 586)
+Writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.prt
+ 259 portalclusters
+ 857 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 111 visible clusters (0.32%)
+Total clusters visible: 34222
+Average clusters visible: 132
+Building PAS...
+Average clusters audible: 253
+visdatasize:19092  compressed from 20720
+writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+2351 faces
+35 degenerate faces
+185132 square feet [26659028.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2316 patches before subdivision
+7856 patches after subdivision
+12 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 921907, max 816
+transfer lists:   7.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6061, 972, 219)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1701, 217, 19)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(753, 88, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(359, 39, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(177, 18, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(88, 8, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(44, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(22, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(11, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0023 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                771/8192         9252/98304    ( 9.4%) 
+brushsides           10011/65536       80088/524288   (15.3%) 
+planes               12466/65536      249320/1310720  (19.0%) 
+vertexes              3939/65536       47268/786432   ( 6.0%) 
+nodes                  550/65536       17600/2097152  ( 0.8%) 
+texinfos              1018/12288       73296/884736   ( 8.3%) 
+texdata                 25/2048          800/65536    ( 1.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2351/65536      131656/3670016  ( 3.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1984/65536      111104/3670016  ( 3.0%) 
+leaves                 554/65536       17728/2097152  ( 0.8%) 
+leaffaces             2722/65536        5444/131072   ( 4.2%) 
+leafbrushes           1121/65536        2242/131072   ( 1.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            19759/512000      79036/2048000  ( 3.9%) 
+edges                12056/256000      48224/1024000  ( 4.7%) 
+LDR worldlights         12/8192         1056/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            402/32768        4020/327680   ( 1.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          7560/65536       15120/131072   (11.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 7/512          2464/180224   ( 1.4%) 
+LDR lightdata         [variable]      277364/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       19092/16777216 ( 0.1%) 
+entdata               [variable]       68943/393216   (17.5%) 
+LDR ambient table      554/65536        2216/262144   ( 0.8%) 
+HDR ambient table      554/65536        2216/262144   ( 0.8%) 
+LDR leaf ambient      1754/65536       49112/1835008  ( 2.7%) 
+HDR leaf ambient       554/65536       15512/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      212168/0        ( 0.0%) 
+physics               [variable]      278405/4194304  ( 6.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 7124
+Writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+12 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/gm_castle/stone/blend_building_sidewalk_wvt_patch
+Patching WVT material: maps/gm_castle/stone/infflrd_blend_dirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 422 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (278405 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1463 texinfos to 1018
+Reduced 29 texdatas to 25 (710 bytes to 586)
+Writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.prt
+ 259 portalclusters
+ 857 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 111 visible clusters (0.32%)
+Total clusters visible: 34222
+Average clusters visible: 132
+Building PAS...
+Average clusters audible: 253
+visdatasize:19092  compressed from 20720
+writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+2351 faces
+35 degenerate faces
+185132 square feet [26659028.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2316 patches before subdivision
+7856 patches after subdivision
+12 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 921907, max 816
+transfer lists:   7.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6050, 971, 219)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1696, 217, 19)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(751, 88, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(358, 39, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(176, 18, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(88, 8, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(44, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(22, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(11, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0024 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                771/8192         9252/98304    ( 9.4%) 
+brushsides           10011/65536       80088/524288   (15.3%) 
+planes               12466/65536      249320/1310720  (19.0%) 
+vertexes              3939/65536       47268/786432   ( 6.0%) 
+nodes                  550/65536       17600/2097152  ( 0.8%) 
+texinfos              1018/12288       73296/884736   ( 8.3%) 
+texdata                 25/2048          800/65536    ( 1.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2351/65536      131656/3670016  ( 3.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1984/65536      111104/3670016  ( 3.0%) 
+leaves                 554/65536       17728/2097152  ( 0.8%) 
+leaffaces             2722/65536        5444/131072   ( 4.2%) 
+leafbrushes           1121/65536        2242/131072   ( 1.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            19759/512000      79036/2048000  ( 3.9%) 
+edges                12056/256000      48224/1024000  ( 4.7%) 
+LDR worldlights         12/8192         1056/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            402/32768        4020/327680   ( 1.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          7560/65536       15120/131072   (11.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 7/512          2464/180224   ( 1.4%) 
+LDR lightdata         [variable]      277364/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       19092/16777216 ( 0.1%) 
+entdata               [variable]       72030/393216   (18.3%) 
+LDR ambient table      554/65536        2216/262144   ( 0.8%) 
+HDR ambient table      554/65536        2216/262144   ( 0.8%) 
+LDR leaf ambient      1754/65536       49112/1835008  ( 2.7%) 
+HDR leaf ambient       554/65536       15512/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      212168/0        ( 0.0%) 
+physics               [variable]      278405/4194304  ( 6.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 7124
+Writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+12 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/gm_castle/stone/blend_building_sidewalk_wvt_patch
+Patching WVT material: maps/gm_castle/stone/infflrd_blend_dirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 916 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (340993 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1754 texinfos to 1193
+Reduced 32 texdatas to 28 (765 bytes to 641)
+Writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.bsp
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.prt
+ 210 portalclusters
+ 685 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 45 visible clusters (0.13%)
+Total clusters visible: 33867
+Average clusters visible: 161
+Building PAS...
+Average clusters audible: 210
+visdatasize:13129  compressed from 13440
+writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+2912 faces
+51 degenerate faces
+195277 square feet [28120012.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2861 patches before subdivision
+10301 patches after subdivision
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1291627, max 927
+transfer lists:   9.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6863, 1123, 274)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1869, 268, 46)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(824, 110, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(384, 49, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(185, 22, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(90, 10, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(44, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(22, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(11, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0029 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                940/8192        11280/98304    (11.5%) 
+brushsides           11599/65536       92792/524288   (17.7%) 
+planes               13892/65536      277840/1310720  (21.2%) 
+vertexes              5048/65536       60576/786432   ( 7.7%) 
+nodes                  431/65536       13792/2097152  ( 0.7%) 
+texinfos              1193/12288       85896/884736   ( 9.7%) 
+texdata                 28/2048          896/65536    ( 1.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2912/65536      163072/3670016  ( 4.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2479/65536      138824/3670016  ( 3.8%) 
+leaves                 435/65536       13920/2097152  ( 0.7%) 
+leaffaces             3433/65536        6866/131072   ( 5.2%) 
+leafbrushes           1249/65536        2498/131072   ( 1.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            25030/512000     100120/2048000  ( 4.9%) 
+edges                15242/256000      60968/1024000  ( 6.0%) 
+LDR worldlights         13/8192         1144/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            566/32768        5660/327680   ( 1.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         10977/65536       21954/131072   (16.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/512          1408/180224   ( 0.8%) 
+LDR lightdata         [variable]      398096/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       13129/16777216 ( 0.1%) 
+entdata               [variable]       80278/393216   (20.4%) 
+LDR ambient table      435/65536        1740/262144   ( 0.7%) 
+HDR ambient table      435/65536        1740/262144   ( 0.7%) 
+LDR leaf ambient      1607/65536       44996/1835008  ( 2.5%) 
+HDR leaf ambient       435/65536       12180/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      212168/0        ( 0.0%) 
+physics               [variable]      340993/4194304  ( 8.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9285
+Writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+13 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/gm_castle/stone/blend_building_sidewalk_wvt_patch
+Patching WVT material: maps/gm_castle/stone/infflrd_blend_dirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 624 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (345049 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1770 texinfos to 1174
+Reduced 32 texdatas to 28 (765 bytes to 641)
+Writing C:\Users\Matìj\Desktop\Hammer Editor\gm_castle\gm_castle.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.prt
+ 266 portalclusters
+ 918 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 191 visible clusters (0.39%)
+Total clusters visible: 49111
+Average clusters visible: 184
+Building PAS...
+Average clusters audible: 266
+visdatasize:20357  compressed from 21280
+writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+2936 faces
+47 degenerate faces
+195612 square feet [28168256.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2889 patches before subdivision
+10757 patches after subdivision
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1327081, max 968
+transfer lists:  10.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(7094, 1158, 283)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1890, 270, 46)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(822, 109, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(382, 48, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(184, 22, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(89, 10, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(44, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(21, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(11, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0032 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                951/8192        11412/98304    (11.6%) 
+brushsides           11686/65536       93488/524288   (17.8%) 
+planes               13956/65536      279120/1310720  (21.3%) 
+vertexes              4806/65536       57672/786432   ( 7.3%) 
+nodes                  517/65536       16544/2097152  ( 0.8%) 
+texinfos              1174/12288       84528/884736   ( 9.6%) 
+texdata                 28/2048          896/65536    ( 1.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2936/65536      164416/3670016  ( 4.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2512/65536      140672/3670016  ( 3.8%) 
+leaves                 521/65536       16672/2097152  ( 0.8%) 
+leaffaces             3662/65536        7324/131072   ( 5.6%) 
+leafbrushes           1341/65536        2682/131072   ( 2.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            25003/512000     100012/2048000  ( 4.9%) 
+edges                15064/256000      60256/1024000  ( 5.9%) 
+LDR worldlights         15/8192         1320/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            539/32768        5390/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         10149/65536       20298/131072   (15.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/512          1408/180224   ( 0.8%) 
+LDR lightdata         [variable]      431940/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       20357/16777216 ( 0.1%) 
+entdata               [variable]       89294/393216   (22.7%) 
+LDR ambient table      521/65536        2084/262144   ( 0.8%) 
+HDR ambient table      521/65536        2084/262144   ( 0.8%) 
+LDR leaf ambient      1949/65536       54572/1835008  ( 3.0%) 
+HDR leaf ambient       521/65536       14588/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      212168/0        ( 0.0%) 
+physics               [variable]      345049/4194304  ( 8.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9079
+Writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+14 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/gm_castle/stone/blend_building_sidewalk_wvt_patch
+Patching WVT material: maps/gm_castle/stone/infflrd_blend_dirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 774 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (351441 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1977 texinfos to 1256
+Reduced 44 texdatas to 38 (1368 bytes to 1192)
+Writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.prt
+ 245 portalclusters
+ 870 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 108 visible clusters (0.23%)
+Total clusters visible: 46383
+Average clusters visible: 189
+Building PAS...
+Average clusters audible: 245
+visdatasize:17176  compressed from 15680
+writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+8 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+3053 faces
+43 degenerate faces
+195211 square feet [28110404.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3010 patches before subdivision
+zero area child patch
+10706 patches after subdivision
+16 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1428689, max 1007
+transfer lists:  10.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(7438, 1180, 264)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2083, 280, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(919, 115, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(430, 51, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(207, 23, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(101, 10, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(50, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(24, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(12, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0191 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                968/8192        11616/98304    (11.8%) 
+brushsides           12164/65536       97312/524288   (18.6%) 
+planes               14760/65536      295200/1310720  (22.5%) 
+vertexes              5251/65536       63012/786432   ( 8.0%) 
+nodes                  481/65536       15392/2097152  ( 0.7%) 
+texinfos              1256/12288       90432/884736   (10.2%) 
+texdata                 38/2048         1216/65536    ( 1.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3053/65536      170968/3670016  ( 4.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2590/65536      145040/3670016  ( 4.0%) 
+leaves                 485/65536       15520/2097152  ( 0.7%) 
+leaffaces             3705/65536        7410/131072   ( 5.7%) 
+leafbrushes           1338/65536        2676/131072   ( 2.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            26501/512000     106004/2048000  ( 5.2%) 
+edges                16097/256000      64388/1024000  ( 6.3%) 
+LDR worldlights         16/8192         1408/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            682/32768        6820/327680   ( 2.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         13116/65536       26232/131072   (20.0%) 
+cubemapsamples          11/1024          176/16384    ( 1.1%) 
+overlays                 4/512          1408/180224   ( 0.8%) 
+LDR lightdata         [variable]      428308/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       17176/16777216 ( 0.1%) 
+entdata               [variable]       95712/393216   (24.3%) 
+LDR ambient table      485/65536        1940/262144   ( 0.7%) 
+HDR ambient table      485/65536        1940/262144   ( 0.7%) 
+LDR leaf ambient      1871/65536       52388/1835008  ( 2.9%) 
+HDR leaf ambient       485/65536       13580/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]     1272231/0        ( 0.0%) 
+physics               [variable]      351441/4194304  ( 8.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 10024
+Writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+49 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+3053 faces
+43 degenerate faces
+195211 square feet [28110404.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3010 patches before subdivision
+zero area child patch
+10706 patches after subdivision
+16 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1428689, max 1007
+transfer lists:  10.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(7438, 1180, 264)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2083, 280, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(919, 115, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(430, 51, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(207, 23, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(101, 10, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(50, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(24, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(12, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0069 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                968/8192        11616/98304    (11.8%) 
+brushsides           12164/65536       97312/524288   (18.6%) 
+planes               14760/65536      295200/1310720  (22.5%) 
+vertexes              5251/65536       63012/786432   ( 8.0%) 
+nodes                  481/65536       15392/2097152  ( 0.7%) 
+texinfos              1256/12288       90432/884736   (10.2%) 
+texdata                 38/2048         1216/65536    ( 1.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3053/65536      170968/3670016  ( 4.7%) 
+hdr faces             3053/65536      170968/3670016  ( 4.7%) 
+origfaces             2590/65536      145040/3670016  ( 4.0%) 
+leaves                 485/65536       15520/2097152  ( 0.7%) 
+leaffaces             3705/65536        7410/131072   ( 5.7%) 
+leafbrushes           1338/65536        2676/131072   ( 2.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            26501/512000     106004/2048000  ( 5.2%) 
+edges                16097/256000      64388/1024000  ( 6.3%) 
+LDR worldlights         16/8192         1408/720896   ( 0.2%) 
+HDR worldlights         16/8192         1408/720896   ( 0.2%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            682/32768        6820/327680   ( 2.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         13116/65536       26232/131072   (20.0%) 
+cubemapsamples          11/1024          176/16384    ( 1.1%) 
+overlays                 4/512          1408/180224   ( 0.8%) 
+LDR lightdata         [variable]      428308/0        ( 0.0%) 
+HDR lightdata         [variable]      428308/0        ( 0.0%) 
+visdata               [variable]       17176/16777216 ( 0.1%) 
+entdata               [variable]       95712/393216   (24.3%) 
+LDR ambient table      485/65536        1940/262144   ( 0.7%) 
+HDR ambient table      485/65536        1940/262144   ( 0.7%) 
+LDR leaf ambient      1871/65536       52388/1835008  ( 2.9%) 
+HDR leaf ambient      1871/65536       52388/1835008  ( 2.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]     1272231/0        ( 0.0%) 
+physics               [variable]      351441/4194304  ( 8.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 10024
+Writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+53 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/gm_castle/stone/blend_building_sidewalk_wvt_patch
+Patching WVT material: maps/gm_castle/stone/infflrd_blend_dirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 774 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (351441 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1979 texinfos to 1256
+Reduced 44 texdatas to 38 (1368 bytes to 1192)
+Writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+reading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.prt
+ 245 portalclusters
+ 870 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 108 visible clusters (0.23%)
+Total clusters visible: 46383
+Average clusters visible: 189
+Building PAS...
+Average clusters audible: 245
+visdatasize:17176  compressed from 15680
+writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+10 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+3053 faces
+43 degenerate faces
+195211 square feet [28110404.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3010 patches before subdivision
+zero area child patch
+10706 patches after subdivision
+16 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1428689, max 1007
+transfer lists:  10.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(7438, 1180, 264)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2083, 280, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(919, 115, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(430, 51, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(207, 23, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(101, 10, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(50, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(24, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(12, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0031 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                968/8192        11616/98304    (11.8%) 
+brushsides           12164/65536       97312/524288   (18.6%) 
+planes               14760/65536      295200/1310720  (22.5%) 
+vertexes              5251/65536       63012/786432   ( 8.0%) 
+nodes                  481/65536       15392/2097152  ( 0.7%) 
+texinfos              1256/12288       90432/884736   (10.2%) 
+texdata                 38/2048         1216/65536    ( 1.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3053/65536      170968/3670016  ( 4.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2590/65536      145040/3670016  ( 4.0%) 
+leaves                 485/65536       15520/2097152  ( 0.7%) 
+leaffaces             3705/65536        7410/131072   ( 5.7%) 
+leafbrushes           1338/65536        2676/131072   ( 2.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            26501/512000     106004/2048000  ( 5.2%) 
+edges                16097/256000      64388/1024000  ( 6.3%) 
+LDR worldlights         16/8192         1408/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            682/32768        6820/327680   ( 2.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         13116/65536       26232/131072   (20.0%) 
+cubemapsamples          11/1024          176/16384    ( 1.1%) 
+overlays                 4/512          1408/180224   ( 0.8%) 
+LDR lightdata         [variable]      428308/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       17176/16777216 ( 0.1%) 
+entdata               [variable]       95712/393216   (24.3%) 
+LDR ambient table      485/65536        1940/262144   ( 0.7%) 
+HDR ambient table      485/65536        1940/262144   ( 0.7%) 
+LDR leaf ambient      1871/65536       52388/1835008  ( 2.9%) 
+HDR leaf ambient       485/65536       13580/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]     1272231/0        ( 0.0%) 
+physics               [variable]      351441/4194304  ( 8.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 10024
+Writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+48 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+3053 faces
+43 degenerate faces
+195211 square feet [28110404.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3010 patches before subdivision
+zero area child patch
+10706 patches after subdivision
+16 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1428689, max 1007
+transfer lists:  10.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(7438, 1180, 264)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2083, 280, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(919, 115, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(430, 51, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(207, 23, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(101, 10, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(50, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(24, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(12, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0067 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                968/8192        11616/98304    (11.8%) 
+brushsides           12164/65536       97312/524288   (18.6%) 
+planes               14760/65536      295200/1310720  (22.5%) 
+vertexes              5251/65536       63012/786432   ( 8.0%) 
+nodes                  481/65536       15392/2097152  ( 0.7%) 
+texinfos              1256/12288       90432/884736   (10.2%) 
+texdata                 38/2048         1216/65536    ( 1.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3053/65536      170968/3670016  ( 4.7%) 
+hdr faces             3053/65536      170968/3670016  ( 4.7%) 
+origfaces             2590/65536      145040/3670016  ( 4.0%) 
+leaves                 485/65536       15520/2097152  ( 0.7%) 
+leaffaces             3705/65536        7410/131072   ( 5.7%) 
+leafbrushes           1338/65536        2676/131072   ( 2.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            26501/512000     106004/2048000  ( 5.2%) 
+edges                16097/256000      64388/1024000  ( 6.3%) 
+LDR worldlights         16/8192         1408/720896   ( 0.2%) 
+HDR worldlights         16/8192         1408/720896   ( 0.2%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            682/32768        6820/327680   ( 2.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         13116/65536       26232/131072   (20.0%) 
+cubemapsamples          11/1024          176/16384    ( 1.1%) 
+overlays                 4/512          1408/180224   ( 0.8%) 
+LDR lightdata         [variable]      428308/0        ( 0.0%) 
+HDR lightdata         [variable]      428308/0        ( 0.0%) 
+visdata               [variable]       17176/16777216 ( 0.1%) 
+entdata               [variable]       95712/393216   (24.3%) 
+LDR ambient table      485/65536        1940/262144   ( 0.7%) 
+HDR ambient table      485/65536        1940/262144   ( 0.7%) 
+LDR leaf ambient      1871/65536       52388/1835008  ( 2.9%) 
+HDR leaf ambient      1871/65536       52388/1835008  ( 2.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]     1272231/0        ( 0.0%) 
+physics               [variable]      351441/4194304  ( 8.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 10024
+Writing c:\users\matìj\desktop\hammer editor\gm_castle\gm_castle.bsp
+52 seconds elapsed

@@ -1,0 +1,1805 @@
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Team Fortress 2\tf\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\tfdb_gamesites_ship\tfdb_gamesites_ship.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\admin\Desktop\Hammer Editor\tfdb_gamesites_ship\tfdb_gamesites_ship.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_dustbowl_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_dustbowl_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_dustbowl_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_dustbowl_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (288863 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 484 texinfos to 304
+Reduced 37 texdatas to 29 (1619 bytes to 1193)
+Writing C:\Users\admin\Desktop\Hammer Editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+reading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.prt
+ 463 portalclusters
+1560 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 236 visible clusters (0.13%)
+Total clusters visible: 179903
+Average clusters visible: 388
+Building PAS...
+Average clusters audible: 462
+visdatasize:57265  compressed from 59264
+writing c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+3 minutes, 4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[37 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+3400 faces
+3442650 square feet [495741632.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3400 patches before subdivision
+48736 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12011093, max 1301
+transfer lists:  91.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(225931, 135929, 61015)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10253, 3938, 1358)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(923, 235, 55)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(81, 12, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(12, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0343 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                751/8192         9012/98304    ( 9.2%) 
+brushsides            7624/65536       60992/524288   (11.6%) 
+planes                7044/65536      140880/1310720  (10.7%) 
+vertexes              4705/65536       56460/786432   ( 7.2%) 
+nodes                  876/65536       28032/2097152  ( 1.3%) 
+texinfos               304/12288       21888/884736   ( 2.5%) 
+texdata                 29/2048          928/65536    ( 1.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3400/65536      190400/3670016  ( 5.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2353/65536      131768/3670016  ( 3.6%) 
+leaves                 881/65536       28192/2097152  ( 1.3%) 
+leaffaces             4124/65536        8248/131072   ( 6.3%) 
+leafbrushes           1207/65536        2414/131072   ( 1.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            24096/512000      96384/2048000  ( 4.7%) 
+edges                13921/256000      55684/1024000  ( 5.4%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            113/32768        1130/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2073/65536        4146/131072   ( 3.2%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     3779484/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       57265/16777216 ( 0.3%) 
+entdata               [variable]       28604/393216   ( 7.3%) 
+LDR ambient table      881/65536        3524/262144   ( 1.3%) 
+HDR ambient table      881/65536        3524/262144   ( 1.3%) 
+LDR leaf ambient      4775/65536      133700/1835008  ( 7.3%) 
+HDR leaf ambient       881/65536       24668/1835008  ( 1.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]        6624/0        ( 0.0%) 
+physics               [variable]      288863/4194304  ( 6.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 7745
+Writing c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+33 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[37 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+3400 faces
+3442650 square feet [495741632.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3400 patches before subdivision
+48736 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12011093, max 1301
+transfer lists:  91.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(225930, 135929, 61015)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10253, 3938, 1358)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(923, 235, 55)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(81, 12, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(12, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0289 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                751/8192         9012/98304    ( 9.2%) 
+brushsides            7624/65536       60992/524288   (11.6%) 
+planes                7044/65536      140880/1310720  (10.7%) 
+vertexes              4705/65536       56460/786432   ( 7.2%) 
+nodes                  876/65536       28032/2097152  ( 1.3%) 
+texinfos               304/12288       21888/884736   ( 2.5%) 
+texdata                 29/2048          928/65536    ( 1.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3400/65536      190400/3670016  ( 5.2%) 
+hdr faces             3400/65536      190400/3670016  ( 5.2%) 
+origfaces             2353/65536      131768/3670016  ( 3.6%) 
+leaves                 881/65536       28192/2097152  ( 1.3%) 
+leaffaces             4124/65536        8248/131072   ( 6.3%) 
+leafbrushes           1207/65536        2414/131072   ( 1.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            24096/512000      96384/2048000  ( 4.7%) 
+edges                13921/256000      55684/1024000  ( 5.4%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          2/8192          176/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            113/32768        1130/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2073/65536        4146/131072   ( 3.2%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     3779484/0        ( 0.0%) 
+HDR lightdata         [variable]     3779484/0        ( 0.0%) 
+visdata               [variable]       57265/16777216 ( 0.3%) 
+entdata               [variable]       28604/393216   ( 7.3%) 
+LDR ambient table      881/65536        3524/262144   ( 1.3%) 
+HDR ambient table      881/65536        3524/262144   ( 1.3%) 
+LDR leaf ambient      4775/65536      133700/1835008  ( 7.3%) 
+HDR leaf ambient      4775/65536      133700/1835008  ( 7.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]        6624/0        ( 0.0%) 
+physics               [variable]      288863/4194304  ( 6.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 7745
+Writing c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+33 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Team Fortress 2\tf\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\tfdb_gamesites_ship\tfdb_gamesites_ship.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\admin\Desktop\Hammer Editor\tfdb_gamesites_ship\tfdb_gamesites_ship.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_dustbowl_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_dustbowl_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_dustbowl_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_dustbowl_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (288863 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 484 texinfos to 304
+Reduced 37 texdatas to 29 (1619 bytes to 1193)
+Writing C:\Users\admin\Desktop\Hammer Editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+reading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.prt
+ 463 portalclusters
+1560 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 236 visible clusters (0.13%)
+Total clusters visible: 179903
+Average clusters visible: 388
+Building PAS...
+Average clusters audible: 462
+visdatasize:57265  compressed from 59264
+writing c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+3 minutes, 19 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[37 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+3400 faces
+3442650 square feet [495741632.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3400 patches before subdivision
+48736 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12011093, max 1301
+transfer lists:  91.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(225930, 135929, 61015)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10253, 3938, 1358)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(923, 235, 55)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(81, 12, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(12, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0259 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                751/8192         9012/98304    ( 9.2%) 
+brushsides            7624/65536       60992/524288   (11.6%) 
+planes                7044/65536      140880/1310720  (10.7%) 
+vertexes              4705/65536       56460/786432   ( 7.2%) 
+nodes                  876/65536       28032/2097152  ( 1.3%) 
+texinfos               304/12288       21888/884736   ( 2.5%) 
+texdata                 29/2048          928/65536    ( 1.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3400/65536      190400/3670016  ( 5.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2353/65536      131768/3670016  ( 3.6%) 
+leaves                 881/65536       28192/2097152  ( 1.3%) 
+leaffaces             4124/65536        8248/131072   ( 6.3%) 
+leafbrushes           1207/65536        2414/131072   ( 1.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            24096/512000      96384/2048000  ( 4.7%) 
+edges                13921/256000      55684/1024000  ( 5.4%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            113/32768        1130/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2073/65536        4146/131072   ( 3.2%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     3779484/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       57265/16777216 ( 0.3%) 
+entdata               [variable]       28638/393216   ( 7.3%) 
+LDR ambient table      881/65536        3524/262144   ( 1.3%) 
+HDR ambient table      881/65536        3524/262144   ( 1.3%) 
+LDR leaf ambient      4775/65536      133700/1835008  ( 7.3%) 
+HDR leaf ambient       881/65536       24668/1835008  ( 1.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]        6624/0        ( 0.0%) 
+physics               [variable]      288863/4194304  ( 6.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 7745
+Writing c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+30 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[37 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+3400 faces
+3442650 square feet [495741632.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3400 patches before subdivision
+48736 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12011093, max 1301
+transfer lists:  91.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(225930, 135929, 61015)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10253, 3938, 1358)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(923, 235, 55)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(81, 12, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(12, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0258 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                751/8192         9012/98304    ( 9.2%) 
+brushsides            7624/65536       60992/524288   (11.6%) 
+planes                7044/65536      140880/1310720  (10.7%) 
+vertexes              4705/65536       56460/786432   ( 7.2%) 
+nodes                  876/65536       28032/2097152  ( 1.3%) 
+texinfos               304/12288       21888/884736   ( 2.5%) 
+texdata                 29/2048          928/65536    ( 1.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3400/65536      190400/3670016  ( 5.2%) 
+hdr faces             3400/65536      190400/3670016  ( 5.2%) 
+origfaces             2353/65536      131768/3670016  ( 3.6%) 
+leaves                 881/65536       28192/2097152  ( 1.3%) 
+leaffaces             4124/65536        8248/131072   ( 6.3%) 
+leafbrushes           1207/65536        2414/131072   ( 1.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            24096/512000      96384/2048000  ( 4.7%) 
+edges                13921/256000      55684/1024000  ( 5.4%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          2/8192          176/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            113/32768        1130/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2073/65536        4146/131072   ( 3.2%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     3779484/0        ( 0.0%) 
+HDR lightdata         [variable]     3779484/0        ( 0.0%) 
+visdata               [variable]       57265/16777216 ( 0.3%) 
+entdata               [variable]       28638/393216   ( 7.3%) 
+LDR ambient table      881/65536        3524/262144   ( 1.3%) 
+HDR ambient table      881/65536        3524/262144   ( 1.3%) 
+LDR leaf ambient      4775/65536      133700/1835008  ( 7.3%) 
+HDR leaf ambient      4775/65536      133700/1835008  ( 7.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]        6624/0        ( 0.0%) 
+physics               [variable]      288863/4194304  ( 6.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 7745
+Writing c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+31 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Team Fortress 2\tf\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\tfdb_gamesites_ship\tfdb_gamesites_ship.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\admin\Desktop\Hammer Editor\tfdb_gamesites_ship\tfdb_gamesites_ship.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_dustbowl_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_dustbowl_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_dustbowl_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_dustbowl_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (290567 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 541 texinfos to 328
+Reduced 39 texdatas to 31 (1729 bytes to 1311)
+Writing C:\Users\admin\Desktop\Hammer Editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+reading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.prt
+ 464 portalclusters
+1560 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 235 visible clusters (0.13%)
+Total clusters visible: 179903
+Average clusters visible: 387
+Building PAS...
+Average clusters audible: 461
+visdatasize:57274  compressed from 59392
+writing c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+3 minutes, 8 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[37 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+3534 faces
+4189989 square feet [603358464.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3534 patches before subdivision
+48868 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12012784, max 1301
+transfer lists:  91.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(226062, 136013, 61050)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10278, 3948, 1360)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(925, 236, 55)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(81, 12, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(12, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0253 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                764/8192         9168/98304    ( 9.3%) 
+brushsides            7702/65536       61616/524288   (11.8%) 
+planes                7110/65536      142200/1310720  (10.8%) 
+vertexes              4877/65536       58524/786432   ( 7.4%) 
+nodes                 1030/65536       32960/2097152  ( 1.6%) 
+texinfos               328/12288       23616/884736   ( 2.7%) 
+texdata                 31/2048          992/65536    ( 1.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3534/65536      197904/3670016  ( 5.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2394/65536      134064/3670016  ( 3.7%) 
+leaves                1035/65536       33120/2097152  ( 1.6%) 
+leaffaces             4368/65536        8736/131072   ( 6.7%) 
+leafbrushes           1367/65536        2734/131072   ( 2.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            24835/512000      99340/2048000  ( 4.9%) 
+edges                14342/256000      57368/1024000  ( 5.6%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            120/32768        1200/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2181/65536        4362/131072   ( 3.3%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     3779500/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       57274/16777216 ( 0.3%) 
+entdata               [variable]       28970/393216   ( 7.4%) 
+LDR ambient table     1035/65536        4140/262144   ( 1.6%) 
+HDR ambient table     1035/65536        4140/262144   ( 1.6%) 
+LDR leaf ambient      4842/65536      135576/1835008  ( 7.4%) 
+HDR leaf ambient      1035/65536       28980/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]        7360/0        ( 0.0%) 
+physics               [variable]      290567/4194304  ( 6.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8052
+Writing c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+33 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[37 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+3534 faces
+4189989 square feet [603358464.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3534 patches before subdivision
+48868 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12012784, max 1301
+transfer lists:  91.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(226062, 136013, 61050)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10278, 3948, 1360)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(925, 236, 55)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(81, 12, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(12, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0287 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                764/8192         9168/98304    ( 9.3%) 
+brushsides            7702/65536       61616/524288   (11.8%) 
+planes                7110/65536      142200/1310720  (10.8%) 
+vertexes              4877/65536       58524/786432   ( 7.4%) 
+nodes                 1030/65536       32960/2097152  ( 1.6%) 
+texinfos               328/12288       23616/884736   ( 2.7%) 
+texdata                 31/2048          992/65536    ( 1.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3534/65536      197904/3670016  ( 5.4%) 
+hdr faces             3534/65536      197904/3670016  ( 5.4%) 
+origfaces             2394/65536      134064/3670016  ( 3.7%) 
+leaves                1035/65536       33120/2097152  ( 1.6%) 
+leaffaces             4368/65536        8736/131072   ( 6.7%) 
+leafbrushes           1367/65536        2734/131072   ( 2.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            24835/512000      99340/2048000  ( 4.9%) 
+edges                14342/256000      57368/1024000  ( 5.6%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          2/8192          176/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            120/32768        1200/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2181/65536        4362/131072   ( 3.3%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     3779500/0        ( 0.0%) 
+HDR lightdata         [variable]     3779500/0        ( 0.0%) 
+visdata               [variable]       57274/16777216 ( 0.3%) 
+entdata               [variable]       28970/393216   ( 7.4%) 
+LDR ambient table     1035/65536        4140/262144   ( 1.6%) 
+HDR ambient table     1035/65536        4140/262144   ( 1.6%) 
+LDR leaf ambient      4842/65536      135576/1835008  ( 7.4%) 
+HDR leaf ambient      4842/65536      135576/1835008  ( 7.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]        7360/0        ( 0.0%) 
+physics               [variable]      290567/4194304  ( 6.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8052
+Writing c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+34 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Team Fortress 2\tf\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\tfdb_gamesites_ship\tfdb_gamesites_ship.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_dynamic (1094.00 -1128.00 -894.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7680.0 14336.0 -1110.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8192.0 13824.0 -1110.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (6656.0 14336.0 -1110.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 13315.5 -1618.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 13315.5 -1013.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 13315.5 -505.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 13827.5 -1110.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5632.0 14336.0 -1110.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_dustbowl_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_dustbowl_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_dustbowl_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_dustbowl_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (290581 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 552 texinfos to 336
+Reduced 39 texdatas to 31 (1729 bytes to 1311)
+Writing C:\Users\admin\Desktop\Hammer Editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+reading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.prt
+LoadPortals: couldn't read c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[37 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+No vis information, direct lighting only.
+4238 faces
+5652366 square feet [813940736.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0183 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                763/8192         9156/98304    ( 9.3%) 
+brushsides            7696/65536       61568/524288   (11.7%) 
+planes                7110/65536      142200/1310720  (10.8%) 
+vertexes              5489/65536       65868/786432   ( 8.4%) 
+nodes                 1768/65536       56576/2097152  ( 2.7%) 
+texinfos               336/12288       24192/884736   ( 2.7%) 
+texdata                 31/2048          992/65536    ( 1.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4238/65536      237328/3670016  ( 6.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2441/65536      136696/3670016  ( 3.7%) 
+leaves                1773/65536       56736/2097152  ( 2.7%) 
+leaffaces             5318/65536       10636/131072   ( 8.1%) 
+leafbrushes           1661/65536        3322/131072   ( 2.5%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            27990/512000     111960/2048000  ( 5.5%) 
+edges                16038/256000      64152/1024000  ( 6.3%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            124/32768        1240/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2229/65536        4458/131072   ( 3.4%) 
+cubemapsamples          13/1024          208/16384    ( 1.3%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     3844400/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       28105/393216   ( 7.1%) 
+LDR ambient table     1773/65536        7092/262144   ( 2.7%) 
+HDR ambient table     1773/65536        7092/262144   ( 2.7%) 
+LDR leaf ambient     11941/65536      334348/1835008  (18.2%) 
+HDR leaf ambient      1773/65536       49644/1835008  ( 2.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]        7360/0        ( 0.0%) 
+physics               [variable]      290581/4194304  ( 6.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9610
+Writing c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+31 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[37 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+No vis information, direct lighting only.
+4238 faces
+5652366 square feet [813940736.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0186 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                763/8192         9156/98304    ( 9.3%) 
+brushsides            7696/65536       61568/524288   (11.7%) 
+planes                7110/65536      142200/1310720  (10.8%) 
+vertexes              5489/65536       65868/786432   ( 8.4%) 
+nodes                 1768/65536       56576/2097152  ( 2.7%) 
+texinfos               336/12288       24192/884736   ( 2.7%) 
+texdata                 31/2048          992/65536    ( 1.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4238/65536      237328/3670016  ( 6.5%) 
+hdr faces             4238/65536      237328/3670016  ( 6.5%) 
+origfaces             2441/65536      136696/3670016  ( 3.7%) 
+leaves                1773/65536       56736/2097152  ( 2.7%) 
+leaffaces             5318/65536       10636/131072   ( 8.1%) 
+leafbrushes           1661/65536        3322/131072   ( 2.5%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            27990/512000     111960/2048000  ( 5.5%) 
+edges                16038/256000      64152/1024000  ( 6.3%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          2/8192          176/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            124/32768        1240/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2229/65536        4458/131072   ( 3.4%) 
+cubemapsamples          13/1024          208/16384    ( 1.3%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     3844400/0        ( 0.0%) 
+HDR lightdata         [variable]     3844400/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       28105/393216   ( 7.1%) 
+LDR ambient table     1773/65536        7092/262144   ( 2.7%) 
+HDR ambient table     1773/65536        7092/262144   ( 2.7%) 
+LDR leaf ambient     11941/65536      334348/1835008  (18.2%) 
+HDR leaf ambient     11941/65536      334348/1835008  (18.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]        7360/0        ( 0.0%) 
+physics               [variable]      290581/4194304  ( 6.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9610
+Writing c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+32 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Team Fortress 2\tf\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\tfdb_gamesites_ship\tfdb_gamesites_ship.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_dynamic (1094.00 -1128.00 -894.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7680.0 14336.0 -1110.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8192.0 13824.0 -1110.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (6656.0 14336.0 -1110.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 13315.5 -1618.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 13315.5 -1013.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 13315.5 -505.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 13827.5 -1110.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5632.0 14336.0 -1110.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_dustbowl_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_dustbowl_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_dustbowl_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_dustbowl_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (290581 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 552 texinfos to 336
+Reduced 39 texdatas to 31 (1729 bytes to 1311)
+Writing C:\Users\admin\Desktop\Hammer Editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+reading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.prt
+LoadPortals: couldn't read c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[37 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+No vis information, direct lighting only.
+4238 faces
+5652366 square feet [813940736.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0195 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                763/8192         9156/98304    ( 9.3%) 
+brushsides            7696/65536       61568/524288   (11.7%) 
+planes                7110/65536      142200/1310720  (10.8%) 
+vertexes              5489/65536       65868/786432   ( 8.4%) 
+nodes                 1768/65536       56576/2097152  ( 2.7%) 
+texinfos               336/12288       24192/884736   ( 2.7%) 
+texdata                 31/2048          992/65536    ( 1.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4238/65536      237328/3670016  ( 6.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2441/65536      136696/3670016  ( 3.7%) 
+leaves                1773/65536       56736/2097152  ( 2.7%) 
+leaffaces             5318/65536       10636/131072   ( 8.1%) 
+leafbrushes           1661/65536        3322/131072   ( 2.5%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            27990/512000     111960/2048000  ( 5.5%) 
+edges                16038/256000      64152/1024000  ( 6.3%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            124/32768        1240/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2229/65536        4458/131072   ( 3.4%) 
+cubemapsamples          13/1024          208/16384    ( 1.3%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     3844400/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       28105/393216   ( 7.1%) 
+LDR ambient table     1773/65536        7092/262144   ( 2.7%) 
+HDR ambient table     1773/65536        7092/262144   ( 2.7%) 
+LDR leaf ambient     11941/65536      334348/1835008  (18.2%) 
+HDR leaf ambient      1773/65536       49644/1835008  ( 2.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]        7360/0        ( 0.0%) 
+physics               [variable]      290581/4194304  ( 6.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9610
+Writing c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+31 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[37 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+No vis information, direct lighting only.
+4238 faces
+5652366 square feet [813940736.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0186 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                763/8192         9156/98304    ( 9.3%) 
+brushsides            7696/65536       61568/524288   (11.7%) 
+planes                7110/65536      142200/1310720  (10.8%) 
+vertexes              5489/65536       65868/786432   ( 8.4%) 
+nodes                 1768/65536       56576/2097152  ( 2.7%) 
+texinfos               336/12288       24192/884736   ( 2.7%) 
+texdata                 31/2048          992/65536    ( 1.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4238/65536      237328/3670016  ( 6.5%) 
+hdr faces             4238/65536      237328/3670016  ( 6.5%) 
+origfaces             2441/65536      136696/3670016  ( 3.7%) 
+leaves                1773/65536       56736/2097152  ( 2.7%) 
+leaffaces             5318/65536       10636/131072   ( 8.1%) 
+leafbrushes           1661/65536        3322/131072   ( 2.5%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            27990/512000     111960/2048000  ( 5.5%) 
+edges                16038/256000      64152/1024000  ( 6.3%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          2/8192          176/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            124/32768        1240/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2229/65536        4458/131072   ( 3.4%) 
+cubemapsamples          13/1024          208/16384    ( 1.3%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     3844400/0        ( 0.0%) 
+HDR lightdata         [variable]     3844400/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       28105/393216   ( 7.1%) 
+LDR ambient table     1773/65536        7092/262144   ( 2.7%) 
+HDR ambient table     1773/65536        7092/262144   ( 2.7%) 
+LDR leaf ambient     11941/65536      334348/1835008  (18.2%) 
+HDR leaf ambient     11941/65536      334348/1835008  (18.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]        7360/0        ( 0.0%) 
+physics               [variable]      290581/4194304  ( 6.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9610
+Writing c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+31 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Team Fortress 2\tf\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\tfdb_gamesites_ship\tfdb_gamesites_ship.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity sky_camera (2742.56 9040.80 -959.53) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7680.0 14336.0 -1110.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8192.0 13824.0 -1110.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (6656.0 14336.0 -1110.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 13824.0 -1110.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5632.0 14336.0 -1110.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8192.0 12800.0 -1110.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8192.0 11776.0 -1110.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8192.0 10752.0 -1110.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_dustbowl_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_dustbowl_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_dustbowl_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_dustbowl_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (301812 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 597 texinfos to 355
+Reduced 39 texdatas to 28 (1643 bytes to 1075)
+Writing C:\Users\admin\Desktop\Hammer Editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+reading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.prt
+LoadPortals: couldn't read c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[37 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+No vis information, direct lighting only.
+4262 faces
+4946967 square feet [712363328.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0185 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                782/8192         9384/98304    ( 9.5%) 
+brushsides            7810/65536       62480/524288   (11.9%) 
+planes                7198/65536      143960/1310720  (11.0%) 
+vertexes              5564/65536       66768/786432   ( 8.5%) 
+nodes                 1813/65536       58016/2097152  ( 2.8%) 
+texinfos               355/12288       25560/884736   ( 2.9%) 
+texdata                 28/2048          896/65536    ( 1.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4262/65536      238672/3670016  ( 6.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2499/65536      139944/3670016  ( 3.8%) 
+leaves                1825/65536       58400/2097152  ( 2.8%) 
+leaffaces             5306/65536       10612/131072   ( 8.1%) 
+leafbrushes           1664/65536        3328/131072   ( 2.5%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            28286/512000     113144/2048000  ( 5.5%) 
+edges                16167/256000      64668/1024000  ( 6.3%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            119/32768        1190/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2145/65536        4290/131072   ( 3.3%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     3792516/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       25575/393216   ( 6.5%) 
+LDR ambient table     1825/65536        7300/262144   ( 2.8%) 
+HDR ambient table     1825/65536        7300/262144   ( 2.8%) 
+LDR leaf ambient     12439/65536      348292/1835008  (19.0%) 
+HDR leaf ambient      1825/65536       51100/1835008  ( 2.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]        7171/0        ( 0.0%) 
+physics               [variable]      301812/4194304  ( 7.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9628
+Writing c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+33 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[37 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+No vis information, direct lighting only.
+4262 faces
+4946967 square feet [712363328.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0193 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                782/8192         9384/98304    ( 9.5%) 
+brushsides            7810/65536       62480/524288   (11.9%) 
+planes                7198/65536      143960/1310720  (11.0%) 
+vertexes              5564/65536       66768/786432   ( 8.5%) 
+nodes                 1813/65536       58016/2097152  ( 2.8%) 
+texinfos               355/12288       25560/884736   ( 2.9%) 
+texdata                 28/2048          896/65536    ( 1.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4262/65536      238672/3670016  ( 6.5%) 
+hdr faces             4262/65536      238672/3670016  ( 6.5%) 
+origfaces             2499/65536      139944/3670016  ( 3.8%) 
+leaves                1825/65536       58400/2097152  ( 2.8%) 
+leaffaces             5306/65536       10612/131072   ( 8.1%) 
+leafbrushes           1664/65536        3328/131072   ( 2.5%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            28286/512000     113144/2048000  ( 5.5%) 
+edges                16167/256000      64668/1024000  ( 6.3%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          2/8192          176/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            119/32768        1190/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2145/65536        4290/131072   ( 3.3%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     3792516/0        ( 0.0%) 
+HDR lightdata         [variable]     3792516/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       25575/393216   ( 6.5%) 
+LDR ambient table     1825/65536        7300/262144   ( 2.8%) 
+HDR ambient table     1825/65536        7300/262144   ( 2.8%) 
+LDR leaf ambient     12439/65536      348292/1835008  (19.0%) 
+HDR leaf ambient     12437/65536      348236/1835008  (19.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]        7171/0        ( 0.0%) 
+physics               [variable]      301812/4194304  ( 7.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9628
+Writing c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+33 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Team Fortress 2\tf\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\tfdb_gamesites_ship\tfdb_gamesites_ship.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Error! Entity sky_camera in solid volume! at 2742.6 9040.8 -959.5
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Team Fortress 2\tf\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\tfdb_gamesites_ship\tfdb_gamesites_ship.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Error! Entity sky_camera in solid volume! at 2742.6 9040.8 -959.5
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Team Fortress 2\tf\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\tfdb_gamesites_ship\tfdb_gamesites_ship.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Error! Entity sky_camera in solid volume! at 2742.6 9040.8 -959.5
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+reading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.prt
+LoadPortals: couldn't read c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[37 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+No vis information, direct lighting only.
+4262 faces
+4946967 square feet [712363328.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0183 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                782/8192         9384/98304    ( 9.5%) 
+brushsides            7810/65536       62480/524288   (11.9%) 
+planes                7198/65536      143960/1310720  (11.0%) 
+vertexes              5564/65536       66768/786432   ( 8.5%) 
+nodes                 1813/65536       58016/2097152  ( 2.8%) 
+texinfos               355/12288       25560/884736   ( 2.9%) 
+texdata                 28/2048          896/65536    ( 1.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4262/65536      238672/3670016  ( 6.5%) 
+hdr faces             4262/65536      238672/3670016  ( 6.5%) 
+origfaces             2499/65536      139944/3670016  ( 3.8%) 
+leaves                1825/65536       58400/2097152  ( 2.8%) 
+leaffaces             5306/65536       10612/131072   ( 8.1%) 
+leafbrushes           1664/65536        3328/131072   ( 2.5%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            28286/512000     113144/2048000  ( 5.5%) 
+edges                16167/256000      64668/1024000  ( 6.3%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          2/8192          176/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            119/32768        1190/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2145/65536        4290/131072   ( 3.3%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     3792516/0        ( 0.0%) 
+HDR lightdata         [variable]     3792516/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       25575/393216   ( 6.5%) 
+LDR ambient table     1825/65536        7300/262144   ( 2.8%) 
+HDR ambient table     1825/65536        7300/262144   ( 2.8%) 
+LDR leaf ambient     12438/65536      348264/1835008  (19.0%) 
+HDR leaf ambient     12437/65536      348236/1835008  (19.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]        7171/0        ( 0.0%) 
+physics               [variable]      301812/4194304  ( 7.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9628
+Writing c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+32 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[37 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+No vis information, direct lighting only.
+4262 faces
+4946967 square feet [712363328.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0184 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                782/8192         9384/98304    ( 9.5%) 
+brushsides            7810/65536       62480/524288   (11.9%) 
+planes                7198/65536      143960/1310720  (11.0%) 
+vertexes              5564/65536       66768/786432   ( 8.5%) 
+nodes                 1813/65536       58016/2097152  ( 2.8%) 
+texinfos               355/12288       25560/884736   ( 2.9%) 
+texdata                 28/2048          896/65536    ( 1.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4262/65536      238672/3670016  ( 6.5%) 
+hdr faces             4262/65536      238672/3670016  ( 6.5%) 
+origfaces             2499/65536      139944/3670016  ( 3.8%) 
+leaves                1825/65536       58400/2097152  ( 2.8%) 
+leaffaces             5306/65536       10612/131072   ( 8.1%) 
+leafbrushes           1664/65536        3328/131072   ( 2.5%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            28286/512000     113144/2048000  ( 5.5%) 
+edges                16167/256000      64668/1024000  ( 6.3%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          2/8192          176/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            119/32768        1190/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2145/65536        4290/131072   ( 3.3%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     3792516/0        ( 0.0%) 
+HDR lightdata         [variable]     3792516/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       25575/393216   ( 6.5%) 
+LDR ambient table     1825/65536        7300/262144   ( 2.8%) 
+HDR ambient table     1825/65536        7300/262144   ( 2.8%) 
+LDR leaf ambient     12438/65536      348264/1835008  (19.0%) 
+HDR leaf ambient     12438/65536      348264/1835008  (19.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]        7171/0        ( 0.0%) 
+physics               [variable]      301812/4194304  ( 7.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9628
+Writing c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+32 seconds elapsed
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Team Fortress 2\tf\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\tfdb_gamesites_ship\tfdb_gamesites_ship.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\admin\Desktop\Hammer Editor\tfdb_gamesites_ship\tfdb_gamesites_ship.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_dustbowl_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_dustbowl_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_dustbowl_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_dustbowl_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (313089 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 671 texinfos to 392
+Reduced 39 texdatas to 28 (1675 bytes to 1092)
+Writing C:\Users\admin\Desktop\Hammer Editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+reading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.prt
+ 592 portalclusters
+1946 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 361 visible clusters (0.14%)
+Total clusters visible: 266313
+Average clusters visible: 449
+Building PAS...
+Average clusters audible: 589
+visdatasize:91460  compressed from 94720
+writing c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+6 minutes, 11 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[37 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+4035 faces
+4047414 square feet [582827648.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4035 patches before subdivision
+50581 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 14031098, max 1435
+transfer lists: 107.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(239013, 144020, 64522)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(110742, 66142, 28146)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(7690, 2920, 789)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4066, 1570, 416)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(302, 73, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(156, 39, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(12, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(6, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0253 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  18/1024          864/49152    ( 1.8%) 
+brushes                803/8192         9636/98304    ( 9.8%) 
+brushsides            7936/65536       63488/524288   (12.1%) 
+planes                7286/65536      145720/1310720  (11.1%) 
+vertexes              5301/65536       63612/786432   ( 8.1%) 
+nodes                 1335/65536       42720/2097152  ( 2.0%) 
+texinfos               392/12288       28224/884736   ( 3.2%) 
+texdata                 28/2048          896/65536    ( 1.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4035/65536      225960/3670016  ( 6.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2527/65536      141512/3670016  ( 3.9%) 
+leaves                1354/65536       43328/2097152  ( 2.1%) 
+leaffaces             4921/65536        9842/131072   ( 7.5%) 
+leafbrushes           1673/65536        3346/131072   ( 2.6%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            27526/512000     110104/2048000  ( 5.4%) 
+edges                15760/256000      63040/1024000  ( 6.2%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            129/32768        1290/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2199/65536        4398/131072   ( 3.4%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     3802920/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       91460/16777216 ( 0.5%) 
+entdata               [variable]       27140/393216   ( 6.9%) 
+LDR ambient table     1354/65536        5416/262144   ( 2.1%) 
+HDR ambient table     1354/65536        5416/262144   ( 2.1%) 
+LDR leaf ambient      6644/65536      186032/1835008  (10.1%) 
+HDR leaf ambient      1354/65536       37912/1835008  ( 2.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]        7234/0        ( 0.0%) 
+physics               [variable]      313089/4194304  ( 7.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9213
+Writing c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+36 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[37 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+4035 faces
+4047414 square feet [582827648.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4035 patches before subdivision
+50581 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 14031098, max 1435
+transfer lists: 107.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(239012, 144019, 64522)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(110742, 66142, 28146)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(7690, 2920, 789)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4066, 1570, 416)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(302, 73, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(156, 39, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(12, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(6, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0269 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  18/1024          864/49152    ( 1.8%) 
+brushes                803/8192         9636/98304    ( 9.8%) 
+brushsides            7936/65536       63488/524288   (12.1%) 
+planes                7286/65536      145720/1310720  (11.1%) 
+vertexes              5301/65536       63612/786432   ( 8.1%) 
+nodes                 1335/65536       42720/2097152  ( 2.0%) 
+texinfos               392/12288       28224/884736   ( 3.2%) 
+texdata                 28/2048          896/65536    ( 1.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4035/65536      225960/3670016  ( 6.2%) 
+hdr faces             4035/65536      225960/3670016  ( 6.2%) 
+origfaces             2527/65536      141512/3670016  ( 3.9%) 
+leaves                1354/65536       43328/2097152  ( 2.1%) 
+leaffaces             4921/65536        9842/131072   ( 7.5%) 
+leafbrushes           1673/65536        3346/131072   ( 2.6%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            27526/512000     110104/2048000  ( 5.4%) 
+edges                15760/256000      63040/1024000  ( 6.2%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          2/8192          176/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            129/32768        1290/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2199/65536        4398/131072   ( 3.4%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     3802920/0        ( 0.0%) 
+HDR lightdata         [variable]     3802920/0        ( 0.0%) 
+visdata               [variable]       91460/16777216 ( 0.5%) 
+entdata               [variable]       27140/393216   ( 6.9%) 
+LDR ambient table     1354/65536        5416/262144   ( 2.1%) 
+HDR ambient table     1354/65536        5416/262144   ( 2.1%) 
+LDR leaf ambient      6644/65536      186032/1835008  (10.1%) 
+HDR leaf ambient      6644/65536      186032/1835008  (10.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]        7234/0        ( 0.0%) 
+physics               [variable]      313089/4194304  ( 7.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9213
+Writing c:\users\admin\desktop\hammer editor\tfdb_gamesites_ship\tfdb_gamesites_ship.bsp
+37 seconds elapsed

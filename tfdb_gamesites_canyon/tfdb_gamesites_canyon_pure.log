@@ -1,0 +1,214 @@
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Team Fortress 2\tf\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\tfdb_gamesites_canyon\tfdb_gamesites_canyon_pure.vmf
+Patching WVT material: maps/tfdb_gamesites_canyon_pure/coalmines/blendgroundtograss_coalmines_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\admin\Desktop\Hammer Editor\tfdb_gamesites_canyon\tfdb_gamesites_canyon_pure.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (35700 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 746 texinfos to 203
+Reduced 14 texdatas to 11 (456 bytes to 255)
+Writing C:\Users\admin\Desktop\Hammer Editor\tfdb_gamesites_canyon\tfdb_gamesites_canyon_pure.bsp
+3 seconds elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\tfdb_gamesites_canyon\tfdb_gamesites_canyon_pure.bsp
+reading c:\users\admin\desktop\hammer editor\tfdb_gamesites_canyon\tfdb_gamesites_canyon_pure.prt
+ 537 portalclusters
+1442 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 18 visible clusters (0.01%)
+Total clusters visible: 172969
+Average clusters visible: 322
+Building PAS...
+Average clusters audible: 533
+visdatasize:77526  compressed from 77328
+writing c:\users\admin\desktop\hammer editor\tfdb_gamesites_canyon\tfdb_gamesites_canyon_pure.bsp
+1 minute, 31 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[37 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\tfdb_gamesites_canyon\tfdb_gamesites_canyon_pure.bsp
+2047 faces
+3128929 square feet [450565760.00 square inches]
+873 Displacements
+868399 Square Feet [125049560.00 Square Inches]
+2047 patches before subdivision
+38861 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1247517, max 273
+transfer lists:   9.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(122146, 56435, 20761)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7423, 2524, 743)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(790, 193, 42)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(80, 17, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(12, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0380 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 88/8192         1056/98304    ( 1.1%) 
+brushsides             564/65536        4512/524288   ( 0.9%) 
+planes                 858/65536       17160/1310720  ( 1.3%) 
+vertexes              2879/65536       34548/786432   ( 4.4%) 
+nodes                 1251/65536       40032/2097152  ( 1.9%) 
+texinfos               203/12288       14616/884736   ( 1.7%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos              873/0          153648/0        ( 0.0%) 
+disp_verts           70713/0         1414260/0        ( 0.0%) 
+disp_tris           111744/0          223488/0        ( 0.0%) 
+disp_lmsamples     1769776/0         1769776/0        ( 0.0%) 
+faces                 2047/65536      114632/3670016  ( 3.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1206/65536       67536/3670016  ( 1.8%) 
+leaves                1257/65536       40224/2097152  ( 1.9%) 
+leaffaces             1296/65536        2592/131072   ( 2.0%) 
+leafbrushes            840/65536        1680/131072   ( 1.3%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            13566/512000      54264/2048000  ( 2.6%) 
+edges                 7615/256000      30460/1024000  ( 3.0%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips             79/32768         790/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1221/65536        2442/131072   ( 1.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     7195760/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       77526/16777216 ( 0.5%) 
+entdata               [variable]       56596/393216   (14.4%) 
+LDR ambient table     1257/65536        5028/262144   ( 1.9%) 
+HDR ambient table     1257/65536        5028/262144   ( 1.9%) 
+LDR leaf ambient      7184/65536      201152/1835008  (11.0%) 
+HDR leaf ambient      1257/65536       35196/1835008  ( 1.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/434      ( 0.2%) 
+pakfile               [variable]        1218/0        ( 0.0%) 
+physics               [variable]       35700/4194304  ( 0.9%) 
+physics terrain       [variable]      328875/1048576  (31.4%) 
+
+Level flags = 0
+
+Total triangle count: 4648
+Writing c:\users\admin\desktop\hammer editor\tfdb_gamesites_canyon\tfdb_gamesites_canyon_pure.bsp
+52 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[37 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\tfdb_gamesites_canyon\tfdb_gamesites_canyon_pure.bsp
+2047 faces
+3128929 square feet [450565760.00 square inches]
+873 Displacements
+868399 Square Feet [125049560.00 Square Inches]
+2047 patches before subdivision
+38861 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1247517, max 273
+transfer lists:   9.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(122146, 56435, 20761)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7423, 2524, 743)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(790, 193, 42)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(80, 17, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(12, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0539 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 88/8192         1056/98304    ( 1.1%) 
+brushsides             564/65536        4512/524288   ( 0.9%) 
+planes                 858/65536       17160/1310720  ( 1.3%) 
+vertexes              2879/65536       34548/786432   ( 4.4%) 
+nodes                 1251/65536       40032/2097152  ( 1.9%) 
+texinfos               203/12288       14616/884736   ( 1.7%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos              873/0          153648/0        ( 0.0%) 
+disp_verts           70713/0         1414260/0        ( 0.0%) 
+disp_tris           111744/0          223488/0        ( 0.0%) 
+disp_lmsamples     1769776/0         1769776/0        ( 0.0%) 
+faces                 2047/65536      114632/3670016  ( 3.1%) 
+hdr faces             2047/65536      114632/3670016  ( 3.1%) 
+origfaces             1206/65536       67536/3670016  ( 1.8%) 
+leaves                1257/65536       40224/2097152  ( 1.9%) 
+leaffaces             1296/65536        2592/131072   ( 2.0%) 
+leafbrushes            840/65536        1680/131072   ( 1.3%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            13566/512000      54264/2048000  ( 2.6%) 
+edges                 7615/256000      30460/1024000  ( 3.0%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          2/8192          176/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips             79/32768         790/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1221/65536        2442/131072   ( 1.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     7195760/0        ( 0.0%) 
+HDR lightdata         [variable]     7195760/0        ( 0.0%) 
+visdata               [variable]       77526/16777216 ( 0.5%) 
+entdata               [variable]       56596/393216   (14.4%) 
+LDR ambient table     1257/65536        5028/262144   ( 1.9%) 
+HDR ambient table     1257/65536        5028/262144   ( 1.9%) 
+LDR leaf ambient      7184/65536      201152/1835008  (11.0%) 
+HDR leaf ambient      7184/65536      201152/1835008  (11.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/434      ( 0.2%) 
+pakfile               [variable]        1218/0        ( 0.0%) 
+physics               [variable]       35700/4194304  ( 0.9%) 
+physics terrain       [variable]      328875/1048576  (31.4%) 
+
+Level flags = 0
+
+Total triangle count: 4648
+Writing c:\users\admin\desktop\hammer editor\tfdb_gamesites_canyon\tfdb_gamesites_canyon_pure.bsp
+51 seconds elapsed

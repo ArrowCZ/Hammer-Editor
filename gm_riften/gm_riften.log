@@ -1,0 +1,133 @@
+
+
+
+
+materialPath: D:\SteamGames\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\admin\Desktop\Hammer Editor\gm_riften.vmf
+Could not locate 'GameData' key in d:\steamgames\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\admin\Desktop\Hammer Editor\gm_riften.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (57196 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 265 texinfos to 174
+Reduced 20 texdatas to 19 (402 bytes to 360)
+Writing C:\Users\admin\Desktop\Hammer Editor\gm_riften.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\admin\desktop\hammer editor\gm_riften.bsp
+reading c:\users\admin\desktop\hammer editor\gm_riften.prt
+ 375 portalclusters
+1317 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 780 visible clusters (0.90%)
+Total clusters visible: 86790
+Average clusters visible: 231
+Building PAS...
+Average clusters audible: 375
+visdatasize:37390  compressed from 36000
+writing c:\users\admin\desktop\hammer editor\gm_riften.bsp
+48 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\admin\desktop\hammer editor\gm_riften.bsp
+1068 faces
+8 degenerate faces
+279483 square feet [40245672.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1060 patches before subdivision
+zero area child patch
+zero area child patch
+11554 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1110759, max 405
+transfer lists:   8.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(19811, 22173, 15349)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1255, 1351, 689)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(104, 106, 46)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(11, 10, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0036 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                157/8192         1884/98304    ( 1.9%) 
+brushsides            1726/65536       13808/524288   ( 2.6%) 
+planes                1922/65536       38440/1310720  ( 2.9%) 
+vertexes              1664/65536       19968/786432   ( 2.5%) 
+nodes                  724/65536       23168/2097152  ( 1.1%) 
+texinfos               174/12288       12528/884736   ( 1.4%) 
+texdata                 19/2048          608/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1068/65536       59808/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              530/65536       29680/3670016  ( 0.8%) 
+leaves                 726/65536       23232/2097152  ( 1.1%) 
+leaffaces             1206/65536        2412/131072   ( 1.8%) 
+leafbrushes            473/65536         946/131072   ( 0.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7482/512000      29928/2048000  ( 1.5%) 
+edges                 4262/256000      17048/1024000  ( 1.7%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            136/32768        1360/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2340/65536        4680/131072   ( 3.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      527044/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       37390/16777216 ( 0.2%) 
+entdata               [variable]         822/393216   ( 0.2%) 
+LDR ambient table      726/65536        2904/262144   ( 1.1%) 
+HDR ambient table      726/65536        2904/262144   ( 1.1%) 
+LDR leaf ambient      3737/65536      104636/1835008  ( 5.7%) 
+HDR leaf ambient       726/65536       20328/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211557/0        ( 0.0%) 
+physics               [variable]       57196/4194304  ( 1.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3256
+Writing c:\users\admin\desktop\hammer editor\gm_riften.bsp
+9 seconds elapsed
